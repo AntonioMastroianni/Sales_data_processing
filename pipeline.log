@@ -1,0 +1,2021 @@
+2025-08-12 15:22:00,707 - __main__ - INFO - Initializing Spark session...
+2025-08-12 15:22:08,988 - __main__ - INFO - Spark session initialized successfully
+2025-08-12 15:22:08,988 - __main__ - INFO - Reading CSV files from Sales_Data
+2025-08-12 15:22:08,988 - __main__ - INFO - Found 12 CSV files
+2025-08-12 15:36:17,864 - py4j.clientserver - INFO - Error while sending or receiving.
+Traceback (most recent call last):
+  File "C:\Users\masta\OneDrive\Desktop\Antonio_Mastroianni\Jobs\Interview_Assignments\Metyis\project3\.venv\Lib\site-packages\py4j\clientserver.py", line 535, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+                          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\masta\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] Connessione in corso interrotta forzatamente dall'host remoto
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\masta\OneDrive\Desktop\Antonio_Mastroianni\Jobs\Interview_Assignments\Metyis\project3\.venv\Lib\site-packages\py4j\clientserver.py", line 527, in send_command
+    self.socket.sendall(command.encode("utf-8"))
+ConnectionResetError: [WinError 10054] Connessione in corso interrotta forzatamente dall'host remoto
+2025-08-12 15:36:17,920 - py4j.clientserver - INFO - Closing down clientserver connection
+2025-08-12 15:36:17,921 - root - INFO - Exception while sending command.
+Traceback (most recent call last):
+  File "C:\Users\masta\OneDrive\Desktop\Antonio_Mastroianni\Jobs\Interview_Assignments\Metyis\project3\.venv\Lib\site-packages\py4j\clientserver.py", line 535, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+                          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\masta\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] Connessione in corso interrotta forzatamente dall'host remoto
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\masta\OneDrive\Desktop\Antonio_Mastroianni\Jobs\Interview_Assignments\Metyis\project3\.venv\Lib\site-packages\py4j\clientserver.py", line 527, in send_command
+    self.socket.sendall(command.encode("utf-8"))
+ConnectionResetError: [WinError 10054] Connessione in corso interrotta forzatamente dall'host remoto
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\masta\OneDrive\Desktop\Antonio_Mastroianni\Jobs\Interview_Assignments\Metyis\project3\.venv\Lib\site-packages\py4j\java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\masta\OneDrive\Desktop\Antonio_Mastroianni\Jobs\Interview_Assignments\Metyis\project3\.venv\Lib\site-packages\py4j\clientserver.py", line 530, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending
+2025-08-12 15:36:19,964 - py4j.clientserver - INFO - Closing down clientserver connection
+2025-08-12 15:36:20,546 - py4j.clientserver - INFO - Error while sending or receiving.
+Traceback (most recent call last):
+  File "C:\Users\masta\OneDrive\Desktop\Antonio_Mastroianni\Jobs\Interview_Assignments\Metyis\project3\.venv\Lib\site-packages\py4j\clientserver.py", line 527, in send_command
+    self.socket.sendall(command.encode("utf-8"))
+ConnectionResetError: [WinError 10054] Connessione in corso interrotta forzatamente dall'host remoto
+2025-08-12 15:36:20,546 - py4j.clientserver - INFO - Closing down clientserver connection
+2025-08-12 15:36:20,546 - root - INFO - Exception while sending command.
+Traceback (most recent call last):
+  File "C:\Users\masta\OneDrive\Desktop\Antonio_Mastroianni\Jobs\Interview_Assignments\Metyis\project3\.venv\Lib\site-packages\py4j\clientserver.py", line 527, in send_command
+    self.socket.sendall(command.encode("utf-8"))
+ConnectionResetError: [WinError 10054] Connessione in corso interrotta forzatamente dall'host remoto
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\masta\OneDrive\Desktop\Antonio_Mastroianni\Jobs\Interview_Assignments\Metyis\project3\.venv\Lib\site-packages\py4j\java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\masta\OneDrive\Desktop\Antonio_Mastroianni\Jobs\Interview_Assignments\Metyis\project3\.venv\Lib\site-packages\py4j\clientserver.py", line 530, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending
+2025-08-12 15:36:22,002 - py4j.clientserver - INFO - Closing down clientserver connection
+2025-08-12 15:36:22,003 - py4j.clientserver - INFO - Closing down clientserver connection
+2025-08-12 15:36:22,003 - py4j.clientserver - INFO - Closing down clientserver connection
+2025-08-12 15:36:22,003 - py4j.clientserver - INFO - Closing down clientserver connection
+2025-08-12 15:36:32,806 - __main__ - INFO - Initializing Spark session...
+2025-08-12 15:36:40,401 - __main__ - INFO - Spark session initialized successfully
+2025-08-12 15:36:40,401 - __main__ - INFO - Reading CSV files from Sales_Data
+2025-08-12 15:36:40,401 - __main__ - INFO - Found 12 CSV files
+2025-08-12 15:36:40,401 - __main__ - INFO - Reading file 1/12: Sales_April_2019.csv
+2025-08-12 15:36:44,165 - __main__ - INFO -   Successfully read 18,383 rows from Sales_April_2019.csv
+2025-08-12 15:36:44,165 - __main__ - INFO - Reading file 2/12: Sales_August_2019.csv
+2025-08-12 15:36:44,365 - __main__ - INFO -   Successfully read 12,011 rows from Sales_August_2019.csv
+2025-08-12 15:36:44,367 - __main__ - INFO - Reading file 3/12: Sales_December_2019.csv
+2025-08-12 15:36:44,511 - __main__ - INFO -   Successfully read 25,117 rows from Sales_December_2019.csv
+2025-08-12 15:36:44,511 - __main__ - INFO - Reading file 4/12: Sales_February_2019.csv
+2025-08-12 15:36:44,650 - __main__ - INFO -   Successfully read 12,036 rows from Sales_February_2019.csv
+2025-08-12 15:36:44,650 - __main__ - INFO - Reading file 5/12: Sales_January_2019.csv
+2025-08-12 15:36:44,776 - __main__ - INFO -   Successfully read 9,723 rows from Sales_January_2019.csv
+2025-08-12 15:36:44,776 - __main__ - INFO - Reading file 6/12: Sales_July_2019.csv
+2025-08-12 15:36:44,906 - __main__ - INFO -   Successfully read 14,371 rows from Sales_July_2019.csv
+2025-08-12 15:36:44,906 - __main__ - INFO - Reading file 7/12: Sales_June_2019.csv
+2025-08-12 15:36:45,059 - __main__ - INFO -   Successfully read 13,622 rows from Sales_June_2019.csv
+2025-08-12 15:36:45,059 - __main__ - INFO - Reading file 8/12: Sales_March_2019.csv
+2025-08-12 15:36:45,191 - __main__ - INFO -   Successfully read 15,226 rows from Sales_March_2019.csv
+2025-08-12 15:36:45,191 - __main__ - INFO - Reading file 9/12: Sales_May_2019.csv
+2025-08-12 15:36:45,344 - __main__ - INFO -   Successfully read 16,635 rows from Sales_May_2019.csv
+2025-08-12 15:36:45,344 - __main__ - INFO - Reading file 10/12: Sales_November_2019.csv
+2025-08-12 15:36:45,473 - __main__ - INFO -   Successfully read 17,661 rows from Sales_November_2019.csv
+2025-08-12 15:36:45,473 - __main__ - INFO - Reading file 11/12: Sales_October_2019.csv
+2025-08-12 15:36:45,609 - __main__ - INFO -   Successfully read 20,379 rows from Sales_October_2019.csv
+2025-08-12 15:36:45,610 - __main__ - INFO - Reading file 12/12: Sales_September_2019.csv
+2025-08-12 15:36:45,709 - __main__ - INFO -   Successfully read 11,686 rows from Sales_September_2019.csv
+2025-08-12 15:36:45,710 - __main__ - INFO - Combining all CSV files...
+2025-08-12 15:36:46,279 - __main__ - INFO - Successfully combined 186,850 rows from 12 files
+2025-08-12 15:36:46,280 - __main__ - INFO - Formatting column names...
+2025-08-12 15:36:46,331 - __main__ - INFO - Column names formatted: ['order_id', 'product', 'quantity_ordered', 'price_each', 'order_date', 'purchase_address']
+2025-08-12 15:36:46,331 - __main__ - INFO - Starting comprehensive data cleaning...
+2025-08-12 15:36:46,673 - __main__ - INFO - Removing rows with null values in critical columns...
+2025-08-12 15:36:49,107 - __main__ - INFO - Removed 900 rows with null values
+2025-08-12 15:36:49,107 - __main__ - INFO - Filtering rows with valid integer Order IDs...
+2025-08-12 15:36:49,327 - __main__ - INFO - Spark session stopped
+2025-08-12 15:36:49,340 - py4j.clientserver - INFO - Closing down clientserver connection
+2025-08-12 15:43:02,079 - __main__ - INFO - Initializing Spark session...
+2025-08-12 15:43:09,831 - __main__ - INFO - Spark session initialized successfully
+2025-08-12 15:43:09,831 - __main__ - INFO - Reading CSV files from Sales_Data
+2025-08-12 15:43:09,831 - __main__ - INFO - Found 12 CSV files
+2025-08-12 15:43:09,831 - __main__ - INFO - Reading file 1/12: Sales_April_2019.csv
+2025-08-12 15:43:13,618 - __main__ - INFO -   Successfully read 18,383 rows from Sales_April_2019.csv
+2025-08-12 15:43:13,618 - __main__ - INFO - Reading file 2/12: Sales_August_2019.csv
+2025-08-12 15:43:13,817 - __main__ - INFO -   Successfully read 12,011 rows from Sales_August_2019.csv
+2025-08-12 15:43:13,817 - __main__ - INFO - Reading file 3/12: Sales_December_2019.csv
+2025-08-12 15:43:13,969 - __main__ - INFO -   Successfully read 25,117 rows from Sales_December_2019.csv
+2025-08-12 15:43:13,969 - __main__ - INFO - Reading file 4/12: Sales_February_2019.csv
+2025-08-12 15:43:14,096 - __main__ - INFO -   Successfully read 12,036 rows from Sales_February_2019.csv
+2025-08-12 15:43:14,096 - __main__ - INFO - Reading file 5/12: Sales_January_2019.csv
+2025-08-12 15:43:14,212 - __main__ - INFO -   Successfully read 9,723 rows from Sales_January_2019.csv
+2025-08-12 15:43:14,212 - __main__ - INFO - Reading file 6/12: Sales_July_2019.csv
+2025-08-12 15:43:14,347 - __main__ - INFO -   Successfully read 14,371 rows from Sales_July_2019.csv
+2025-08-12 15:43:14,347 - __main__ - INFO - Reading file 7/12: Sales_June_2019.csv
+2025-08-12 15:43:14,477 - __main__ - INFO -   Successfully read 13,622 rows from Sales_June_2019.csv
+2025-08-12 15:43:14,477 - __main__ - INFO - Reading file 8/12: Sales_March_2019.csv
+2025-08-12 15:43:14,610 - __main__ - INFO -   Successfully read 15,226 rows from Sales_March_2019.csv
+2025-08-12 15:43:14,611 - __main__ - INFO - Reading file 9/12: Sales_May_2019.csv
+2025-08-12 15:43:14,728 - __main__ - INFO -   Successfully read 16,635 rows from Sales_May_2019.csv
+2025-08-12 15:43:14,728 - __main__ - INFO - Reading file 10/12: Sales_November_2019.csv
+2025-08-12 15:43:14,829 - __main__ - INFO -   Successfully read 17,661 rows from Sales_November_2019.csv
+2025-08-12 15:43:14,829 - __main__ - INFO - Reading file 11/12: Sales_October_2019.csv
+2025-08-12 15:43:14,943 - __main__ - INFO -   Successfully read 20,379 rows from Sales_October_2019.csv
+2025-08-12 15:43:14,943 - __main__ - INFO - Reading file 12/12: Sales_September_2019.csv
+2025-08-12 15:43:15,048 - __main__ - INFO -   Successfully read 11,686 rows from Sales_September_2019.csv
+2025-08-12 15:43:15,048 - __main__ - INFO - Combining all CSV files...
+2025-08-12 15:43:15,564 - __main__ - INFO - Successfully combined 186,850 rows from 12 files
+2025-08-12 15:43:15,564 - __main__ - INFO - Formatting column names...
+2025-08-12 15:43:15,615 - __main__ - INFO - Column names formatted: ['order_id', 'product', 'quantity_ordered', 'price_each', 'order_date', 'purchase_address']
+2025-08-12 15:43:15,615 - __main__ - INFO - Starting comprehensive data cleaning...
+2025-08-12 15:43:15,935 - __main__ - INFO - Removing rows with null values in critical columns...
+2025-08-12 15:43:17,659 - __main__ - INFO - Removed 900 rows with null values
+2025-08-12 15:43:17,659 - __main__ - INFO - Filtering rows with valid integer Order IDs...
+2025-08-12 15:43:18,189 - __main__ - INFO - Spark session stopped
+2025-08-12 15:43:18,230 - py4j.clientserver - INFO - Closing down clientserver connection
+2025-08-12 15:43:35,846 - __main__ - INFO - Initializing Spark session...
+2025-08-12 15:43:41,901 - __main__ - INFO - Spark session initialized successfully
+2025-08-12 15:43:41,901 - __main__ - INFO - Reading CSV files from Sales_Data
+2025-08-12 15:43:41,905 - __main__ - INFO - Found 12 CSV files
+2025-08-12 15:43:41,905 - __main__ - INFO - Reading file 1/12: Sales_April_2019.csv
+2025-08-12 15:43:44,830 - __main__ - INFO -   Successfully read 18,383 rows from Sales_April_2019.csv
+2025-08-12 15:43:44,830 - __main__ - INFO - Reading file 2/12: Sales_August_2019.csv
+2025-08-12 15:43:44,978 - __main__ - INFO -   Successfully read 12,011 rows from Sales_August_2019.csv
+2025-08-12 15:43:44,978 - __main__ - INFO - Reading file 3/12: Sales_December_2019.csv
+2025-08-12 15:43:45,122 - __main__ - INFO -   Successfully read 25,117 rows from Sales_December_2019.csv
+2025-08-12 15:43:45,122 - __main__ - INFO - Reading file 4/12: Sales_February_2019.csv
+2025-08-12 15:43:45,248 - __main__ - INFO -   Successfully read 12,036 rows from Sales_February_2019.csv
+2025-08-12 15:43:45,248 - __main__ - INFO - Reading file 5/12: Sales_January_2019.csv
+2025-08-12 15:43:45,374 - __main__ - INFO -   Successfully read 9,723 rows from Sales_January_2019.csv
+2025-08-12 15:43:45,375 - __main__ - INFO - Reading file 6/12: Sales_July_2019.csv
+2025-08-12 15:43:45,492 - __main__ - INFO -   Successfully read 14,371 rows from Sales_July_2019.csv
+2025-08-12 15:43:45,492 - __main__ - INFO - Reading file 7/12: Sales_June_2019.csv
+2025-08-12 15:43:45,609 - __main__ - INFO -   Successfully read 13,622 rows from Sales_June_2019.csv
+2025-08-12 15:43:45,609 - __main__ - INFO - Reading file 8/12: Sales_March_2019.csv
+2025-08-12 15:43:45,729 - __main__ - INFO -   Successfully read 15,226 rows from Sales_March_2019.csv
+2025-08-12 15:43:45,729 - __main__ - INFO - Reading file 9/12: Sales_May_2019.csv
+2025-08-12 15:43:45,848 - __main__ - INFO -   Successfully read 16,635 rows from Sales_May_2019.csv
+2025-08-12 15:43:45,848 - __main__ - INFO - Reading file 10/12: Sales_November_2019.csv
+2025-08-12 15:43:45,955 - __main__ - INFO -   Successfully read 17,661 rows from Sales_November_2019.csv
+2025-08-12 15:43:45,955 - __main__ - INFO - Reading file 11/12: Sales_October_2019.csv
+2025-08-12 15:43:46,062 - __main__ - INFO -   Successfully read 20,379 rows from Sales_October_2019.csv
+2025-08-12 15:43:46,062 - __main__ - INFO - Reading file 12/12: Sales_September_2019.csv
+2025-08-12 15:43:46,170 - __main__ - INFO -   Successfully read 11,686 rows from Sales_September_2019.csv
+2025-08-12 15:43:46,170 - __main__ - INFO - Combining all CSV files...
+2025-08-12 15:43:46,625 - __main__ - INFO - Successfully combined 186,850 rows from 12 files
+2025-08-12 15:43:46,627 - __main__ - INFO - Formatting column names...
+2025-08-12 15:43:46,675 - __main__ - INFO - Column names formatted: ['order_id', 'product', 'quantity_ordered', 'price_each', 'order_date', 'purchase_address']
+2025-08-12 15:43:46,675 - __main__ - INFO - Starting comprehensive data cleaning...
+2025-08-12 15:43:46,998 - __main__ - INFO - Removing rows with null values in critical columns...
+2025-08-12 15:43:48,495 - __main__ - INFO - Removed 900 rows with null values
+2025-08-12 15:43:48,495 - __main__ - INFO - Filtering rows with valid integer Order IDs...
+2025-08-12 15:43:49,231 - __main__ - INFO - Removed 0 rows with invalid Order IDs
+2025-08-12 15:43:49,231 - __main__ - INFO - Removing rows with invalid quantities or prices...
+2025-08-12 15:43:49,264 - __main__ - INFO - Converting Order Date to timestamp format...
+2025-08-12 15:43:50,281 - __main__ - INFO - Data cleaning complete:
+2025-08-12 15:43:50,281 - __main__ - INFO -   - Initial rows: 186,850
+2025-08-12 15:43:50,281 - __main__ - INFO -   - Null rows removed: 900
+2025-08-12 15:43:50,281 - __main__ - INFO -   - Invalid Order ID rows removed: 0
+2025-08-12 15:43:50,281 - __main__ - INFO -   - Total rows removed: 900
+2025-08-12 15:43:50,281 - __main__ - INFO -   - Final clean rows: 185,950
+2025-08-12 15:43:50,291 - __main__ - INFO - Starting deduplication process...
+2025-08-12 15:43:50,860 - __main__ - INFO - Removing exact duplicate rows...
+2025-08-12 15:43:54,186 - __main__ - INFO - Deduplication complete:
+2025-08-12 15:43:54,187 - __main__ - INFO -   - Exact duplicates removed: 264
+2025-08-12 15:43:54,187 - __main__ - INFO -   - Final unique rows: 185,686
+2025-08-12 15:43:54,187 - __main__ - INFO - Performing data quality checks...
+2025-08-12 15:44:01,035 - __main__ - INFO - Writing data to cleansed
+2025-08-12 15:44:12,930 - __main__ - INFO - Spark session stopped
+2025-08-12 15:44:12,947 - py4j.clientserver - INFO - Closing down clientserver connection
+2025-08-12 15:47:06,537 - __main__ - INFO - Initializing Spark session...
+2025-08-12 15:47:13,306 - __main__ - INFO - Spark session initialized successfully
+2025-08-12 15:47:13,306 - __main__ - INFO - Reading CSV files from Sales_Data
+2025-08-12 15:47:13,306 - __main__ - INFO - Found 12 CSV files
+2025-08-12 15:47:13,306 - __main__ - INFO - Reading file 1/12: Sales_April_2019.csv
+2025-08-12 15:47:16,217 - __main__ - INFO -   Successfully read 18,383 rows from Sales_April_2019.csv
+2025-08-12 15:47:16,217 - __main__ - INFO - Reading file 2/12: Sales_August_2019.csv
+2025-08-12 15:47:16,389 - __main__ - INFO -   Successfully read 12,011 rows from Sales_August_2019.csv
+2025-08-12 15:47:16,389 - __main__ - INFO - Reading file 3/12: Sales_December_2019.csv
+2025-08-12 15:47:16,542 - __main__ - INFO -   Successfully read 25,117 rows from Sales_December_2019.csv
+2025-08-12 15:47:16,542 - __main__ - INFO - Reading file 4/12: Sales_February_2019.csv
+2025-08-12 15:47:16,676 - __main__ - INFO -   Successfully read 12,036 rows from Sales_February_2019.csv
+2025-08-12 15:47:16,676 - __main__ - INFO - Reading file 5/12: Sales_January_2019.csv
+2025-08-12 15:47:16,809 - __main__ - INFO -   Successfully read 9,723 rows from Sales_January_2019.csv
+2025-08-12 15:47:16,819 - __main__ - INFO - Reading file 6/12: Sales_July_2019.csv
+2025-08-12 15:47:16,946 - __main__ - INFO -   Successfully read 14,371 rows from Sales_July_2019.csv
+2025-08-12 15:47:16,946 - __main__ - INFO - Reading file 7/12: Sales_June_2019.csv
+2025-08-12 15:47:17,072 - __main__ - INFO -   Successfully read 13,622 rows from Sales_June_2019.csv
+2025-08-12 15:47:17,072 - __main__ - INFO - Reading file 8/12: Sales_March_2019.csv
+2025-08-12 15:47:17,200 - __main__ - INFO -   Successfully read 15,226 rows from Sales_March_2019.csv
+2025-08-12 15:47:17,200 - __main__ - INFO - Reading file 9/12: Sales_May_2019.csv
+2025-08-12 15:47:17,323 - __main__ - INFO -   Successfully read 16,635 rows from Sales_May_2019.csv
+2025-08-12 15:47:17,323 - __main__ - INFO - Reading file 10/12: Sales_November_2019.csv
+2025-08-12 15:47:17,420 - __main__ - INFO -   Successfully read 17,661 rows from Sales_November_2019.csv
+2025-08-12 15:47:17,420 - __main__ - INFO - Reading file 11/12: Sales_October_2019.csv
+2025-08-12 15:47:17,521 - __main__ - INFO -   Successfully read 20,379 rows from Sales_October_2019.csv
+2025-08-12 15:47:17,522 - __main__ - INFO - Reading file 12/12: Sales_September_2019.csv
+2025-08-12 15:47:17,615 - __main__ - INFO -   Successfully read 11,686 rows from Sales_September_2019.csv
+2025-08-12 15:47:17,616 - __main__ - INFO - Combining all CSV files...
+2025-08-12 15:47:18,077 - __main__ - INFO - Successfully combined 186,850 rows from 12 files
+2025-08-12 15:47:18,077 - __main__ - INFO - Formatting column names...
+2025-08-12 15:47:18,125 - __main__ - INFO - Column names formatted: ['order_id', 'product', 'quantity_ordered', 'price_each', 'order_date', 'purchase_address']
+2025-08-12 15:47:18,125 - __main__ - INFO - Starting comprehensive data cleaning...
+2025-08-12 15:47:18,425 - __main__ - INFO - Removing rows with null values in critical columns...
+2025-08-12 15:47:20,085 - __main__ - INFO - Removed 900 rows with null values
+2025-08-12 15:47:20,085 - __main__ - INFO - Filtering rows with valid integer Order IDs...
+2025-08-12 15:47:20,775 - __main__ - INFO - Removed 0 rows with invalid Order IDs
+2025-08-12 15:47:20,775 - __main__ - INFO - Removing rows with invalid quantities or prices...
+2025-08-12 15:47:20,822 - __main__ - INFO - Converting Order Date to timestamp format...
+2025-08-12 15:47:21,892 - __main__ - INFO - Data cleaning complete:
+2025-08-12 15:47:21,892 - __main__ - INFO -   - Initial rows: 186,850
+2025-08-12 15:47:21,893 - __main__ - INFO -   - Null rows removed: 900
+2025-08-12 15:47:21,893 - __main__ - INFO -   - Invalid Order ID rows removed: 0
+2025-08-12 15:47:21,893 - __main__ - INFO -   - Total rows removed: 900
+2025-08-12 15:47:21,893 - __main__ - INFO -   - Final clean rows: 185,950
+2025-08-12 15:47:21,893 - __main__ - INFO - Starting deduplication process...
+2025-08-12 15:47:22,486 - __main__ - INFO - Removing exact duplicate rows...
+2025-08-12 15:47:25,922 - __main__ - INFO - Deduplication complete:
+2025-08-12 15:47:25,922 - __main__ - INFO -   - Exact duplicates removed: 264
+2025-08-12 15:47:25,922 - __main__ - INFO -   - Final unique rows: 185,686
+2025-08-12 15:47:25,924 - __main__ - INFO - Performing data quality checks...
+2025-08-12 15:47:33,541 - __main__ - INFO -  All data quality checks passed
+2025-08-12 15:47:33,541 - __main__ - INFO - Writing data to cleansed
+2025-08-12 15:47:43,402 - __main__ - ERROR -  Pipeline failed with error: An error occurred while calling o342.parquet.
+: java.util.concurrent.ExecutionException: Boxed Exception
+	at scala.concurrent.impl.Promise$.scala$concurrent$impl$Promise$$resolve(Promise.scala:99)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:278)
+	at scala.concurrent.Promise.complete(Promise.scala:57)
+	at scala.concurrent.Promise.complete$(Promise.scala:56)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:104)
+	at scala.concurrent.Promise.failure(Promise.scala:109)
+	at scala.concurrent.Promise.failure$(Promise.scala:109)
+	at scala.concurrent.impl.Promise$DefaultPromise.failure(Promise.scala:104)
+	at org.apache.spark.sql.execution.adaptive.ResultQueryStageExec.$anonfun$doMaterialize$2(QueryStageExec.scala:333)
+	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:863)
+	at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:841)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.spark.util.Utils$.getTryWithCallerStacktrace(Utils.scala:1439)
+	at org.apache.spark.util.LazyTry.get(LazyTry.scala:58)
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted(QueryExecution.scala:131)
+	at org.apache.spark.sql.execution.QueryExecution.assertCommandExecuted(QueryExecution.scala:192)
+	at org.apache.spark.sql.classic.DataFrameWriter.runCommand(DataFrameWriter.scala:622)
+	at org.apache.spark.sql.classic.DataFrameWriter.saveToV1Source(DataFrameWriter.scala:273)
+	at org.apache.spark.sql.classic.DataFrameWriter.saveInternal(DataFrameWriter.scala:241)
+	at org.apache.spark.sql.classic.DataFrameWriter.save(DataFrameWriter.scala:118)
+	at org.apache.spark.sql.DataFrameWriter.parquet(DataFrameWriter.scala:369)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:184)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:108)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+	Suppressed: org.apache.spark.util.Utils$OriginalTryStackTraceException: Full stacktrace of original doTryWithCallerStacktrace caller
+		at scala.concurrent.impl.Promise$.scala$concurrent$impl$Promise$$resolve(Promise.scala:99)
+		at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:278)
+		at scala.concurrent.Promise.complete(Promise.scala:57)
+		at scala.concurrent.Promise.complete$(Promise.scala:56)
+		at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:104)
+		at scala.concurrent.Promise.failure(Promise.scala:109)
+		at scala.concurrent.Promise.failure$(Promise.scala:109)
+		at scala.concurrent.impl.Promise$DefaultPromise.failure(Promise.scala:104)
+		at org.apache.spark.sql.execution.adaptive.ResultQueryStageExec.$anonfun$doMaterialize$2(QueryStageExec.scala:333)
+		at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:863)
+		at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:841)
+		at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+		at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		... 1 more
+Caused by: java.lang.UnsatisfiedLinkError: 'boolean org.apache.hadoop.io.nativeio.NativeIO$Windows.access0(java.lang.String, int)'
+	at org.apache.hadoop.io.nativeio.NativeIO$Windows.access0(Native Method)
+	at org.apache.hadoop.io.nativeio.NativeIO$Windows.access(NativeIO.java:817)
+	at org.apache.hadoop.fs.FileUtil.canRead(FileUtil.java:1415)
+	at org.apache.hadoop.fs.FileUtil.list(FileUtil.java:1620)
+	at org.apache.hadoop.fs.RawLocalFileSystem.listStatus(RawLocalFileSystem.java:739)
+	at org.apache.hadoop.fs.FileSystem.listStatus(FileSystem.java:2078)
+	at org.apache.hadoop.fs.FileSystem.listStatus(FileSystem.java:2122)
+	at org.apache.hadoop.fs.ChecksumFileSystem.listStatus(ChecksumFileSystem.java:961)
+	at org.apache.hadoop.fs.FileSystem.listStatus(FileSystem.java:2078)
+	at org.apache.hadoop.fs.FileSystem.listStatus(FileSystem.java:2122)
+	at org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.getAllCommittedTaskPaths(FileOutputCommitter.java:334)
+	at org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitJobInternal(FileOutputCommitter.java:404)
+	at org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitJob(FileOutputCommitter.java:377)
+	at org.apache.parquet.hadoop.ParquetOutputCommitter.commitJob(ParquetOutputCommitter.java:46)
+	at org.apache.spark.internal.io.HadoopMapReduceCommitProtocol.commitJob(HadoopMapReduceCommitProtocol.scala:194)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.$anonfun$writeAndCommit$3(FileFormatWriter.scala:275)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at org.apache.spark.util.Utils$.timeTakenMs(Utils.scala:481)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.writeAndCommit(FileFormatWriter.scala:275)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.executeWrite(FileFormatWriter.scala:306)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.write(FileFormatWriter.scala:189)
+	at org.apache.spark.sql.execution.datasources.InsertIntoHadoopFsRelationCommand.run(InsertIntoHadoopFsRelationCommand.scala:195)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult$lzycompute(commands.scala:117)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult(commands.scala:115)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.executeCollect(commands.scala:129)
+	at org.apache.spark.sql.execution.adaptive.AdaptiveSparkPlanExec.$anonfun$executeCollect$1(AdaptiveSparkPlanExec.scala:402)
+	at org.apache.spark.sql.execution.adaptive.ResultQueryStageExec.$anonfun$doMaterialize$1(QueryStageExec.scala:325)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withThreadLocalCaptured$4(SQLExecution.scala:318)
+	at org.apache.spark.sql.execution.SQLExecution$.withSessionTagsApplied(SQLExecution.scala:268)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withThreadLocalCaptured$3(SQLExecution.scala:316)
+	at org.apache.spark.JobArtifactSet$.withActiveJobArtifactState(JobArtifactSet.scala:94)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withThreadLocalCaptured$2(SQLExecution.scala:312)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	... 1 more
+
+2025-08-12 15:47:43,735 - __main__ - INFO - Spark session stopped
+2025-08-12 15:47:43,756 - py4j.clientserver - INFO - Closing down clientserver connection
+2025-08-12 15:48:59,708 - __main__ - INFO - Initializing Spark session...
+2025-08-12 15:49:06,517 - __main__ - INFO - Spark session initialized successfully
+2025-08-12 15:49:06,517 - __main__ - INFO - Reading CSV files from Sales_Data
+2025-08-12 15:49:06,517 - __main__ - INFO - Found 12 CSV files
+2025-08-12 15:49:06,517 - __main__ - INFO - Reading file 1/12: Sales_April_2019.csv
+2025-08-12 15:49:09,507 - __main__ - INFO -   Successfully read 18,383 rows from Sales_April_2019.csv
+2025-08-12 15:49:09,507 - __main__ - INFO - Reading file 2/12: Sales_August_2019.csv
+2025-08-12 15:49:09,695 - __main__ - INFO -   Successfully read 12,011 rows from Sales_August_2019.csv
+2025-08-12 15:49:09,695 - __main__ - INFO - Reading file 3/12: Sales_December_2019.csv
+2025-08-12 15:49:09,864 - __main__ - INFO -   Successfully read 25,117 rows from Sales_December_2019.csv
+2025-08-12 15:49:09,864 - __main__ - INFO - Reading file 4/12: Sales_February_2019.csv
+2025-08-12 15:49:09,999 - __main__ - INFO -   Successfully read 12,036 rows from Sales_February_2019.csv
+2025-08-12 15:49:10,000 - __main__ - INFO - Reading file 5/12: Sales_January_2019.csv
+2025-08-12 15:49:10,116 - __main__ - INFO -   Successfully read 9,723 rows from Sales_January_2019.csv
+2025-08-12 15:49:10,116 - __main__ - INFO - Reading file 6/12: Sales_July_2019.csv
+2025-08-12 15:49:10,233 - __main__ - INFO -   Successfully read 14,371 rows from Sales_July_2019.csv
+2025-08-12 15:49:10,233 - __main__ - INFO - Reading file 7/12: Sales_June_2019.csv
+2025-08-12 15:49:10,369 - __main__ - INFO -   Successfully read 13,622 rows from Sales_June_2019.csv
+2025-08-12 15:49:10,369 - __main__ - INFO - Reading file 8/12: Sales_March_2019.csv
+2025-08-12 15:49:10,497 - __main__ - INFO -   Successfully read 15,226 rows from Sales_March_2019.csv
+2025-08-12 15:49:10,497 - __main__ - INFO - Reading file 9/12: Sales_May_2019.csv
+2025-08-12 15:49:10,629 - __main__ - INFO -   Successfully read 16,635 rows from Sales_May_2019.csv
+2025-08-12 15:49:10,629 - __main__ - INFO - Reading file 10/12: Sales_November_2019.csv
+2025-08-12 15:49:10,733 - __main__ - INFO -   Successfully read 17,661 rows from Sales_November_2019.csv
+2025-08-12 15:49:10,733 - __main__ - INFO - Reading file 11/12: Sales_October_2019.csv
+2025-08-12 15:49:10,840 - __main__ - INFO -   Successfully read 20,379 rows from Sales_October_2019.csv
+2025-08-12 15:49:10,840 - __main__ - INFO - Reading file 12/12: Sales_September_2019.csv
+2025-08-12 15:49:10,932 - __main__ - INFO -   Successfully read 11,686 rows from Sales_September_2019.csv
+2025-08-12 15:49:10,932 - __main__ - INFO - Combining all CSV files...
+2025-08-12 15:49:11,375 - __main__ - INFO - Successfully combined 186,850 rows from 12 files
+2025-08-12 15:49:11,375 - __main__ - INFO - Formatting column names...
+2025-08-12 15:49:11,423 - __main__ - INFO - Column names formatted: ['order_id', 'product', 'quantity_ordered', 'price_each', 'order_date', 'purchase_address']
+2025-08-12 15:49:11,423 - __main__ - INFO - Starting comprehensive data cleaning...
+2025-08-12 15:49:11,745 - __main__ - INFO - Removing rows with null values in critical columns...
+2025-08-12 15:49:13,358 - __main__ - INFO - Removed 900 rows with null values
+2025-08-12 15:49:13,360 - __main__ - INFO - Filtering rows with valid integer Order IDs...
+2025-08-12 15:49:14,175 - __main__ - INFO - Removed 0 rows with invalid Order IDs
+2025-08-12 15:49:14,175 - __main__ - INFO - Removing rows with invalid quantities or prices...
+2025-08-12 15:49:14,222 - __main__ - INFO - Converting Order Date to timestamp format...
+2025-08-12 15:49:15,434 - __main__ - INFO - Data cleaning complete:
+2025-08-12 15:49:15,434 - __main__ - INFO -   - Initial rows: 186,850
+2025-08-12 15:49:15,434 - __main__ - INFO -   - Null rows removed: 900
+2025-08-12 15:49:15,434 - __main__ - INFO -   - Invalid Order ID rows removed: 0
+2025-08-12 15:49:15,434 - __main__ - INFO -   - Total rows removed: 900
+2025-08-12 15:49:15,434 - __main__ - INFO -   - Final clean rows: 185,950
+2025-08-12 15:49:15,434 - __main__ - INFO - Starting deduplication process...
+2025-08-12 15:49:16,031 - __main__ - INFO - Removing exact duplicate rows...
+2025-08-12 15:49:18,999 - __main__ - INFO - Deduplication complete:
+2025-08-12 15:49:18,999 - __main__ - INFO -   - Exact duplicates removed: 264
+2025-08-12 15:49:19,001 - __main__ - INFO -   - Final unique rows: 185,686
+2025-08-12 15:49:19,002 - __main__ - INFO - Performing data quality checks...
+2025-08-12 15:49:26,399 - __main__ - INFO -  All data quality checks passed
+2025-08-12 15:49:26,399 - __main__ - INFO - Writing data to cleansed
+2025-08-12 15:49:36,809 - __main__ - ERROR -  Pipeline failed with error: An error occurred while calling o344.parquet.
+: java.util.concurrent.ExecutionException: Boxed Exception
+	at scala.concurrent.impl.Promise$.scala$concurrent$impl$Promise$$resolve(Promise.scala:99)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:278)
+	at scala.concurrent.Promise.complete(Promise.scala:57)
+	at scala.concurrent.Promise.complete$(Promise.scala:56)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:104)
+	at scala.concurrent.Promise.failure(Promise.scala:109)
+	at scala.concurrent.Promise.failure$(Promise.scala:109)
+	at scala.concurrent.impl.Promise$DefaultPromise.failure(Promise.scala:104)
+	at org.apache.spark.sql.execution.adaptive.ResultQueryStageExec.$anonfun$doMaterialize$2(QueryStageExec.scala:333)
+	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:863)
+	at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:841)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.spark.util.Utils$.getTryWithCallerStacktrace(Utils.scala:1439)
+	at org.apache.spark.util.LazyTry.get(LazyTry.scala:58)
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted(QueryExecution.scala:131)
+	at org.apache.spark.sql.execution.QueryExecution.assertCommandExecuted(QueryExecution.scala:192)
+	at org.apache.spark.sql.classic.DataFrameWriter.runCommand(DataFrameWriter.scala:622)
+	at org.apache.spark.sql.classic.DataFrameWriter.saveToV1Source(DataFrameWriter.scala:273)
+	at org.apache.spark.sql.classic.DataFrameWriter.saveInternal(DataFrameWriter.scala:241)
+	at org.apache.spark.sql.classic.DataFrameWriter.save(DataFrameWriter.scala:118)
+	at org.apache.spark.sql.DataFrameWriter.parquet(DataFrameWriter.scala:369)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:184)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:108)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+	Suppressed: org.apache.spark.util.Utils$OriginalTryStackTraceException: Full stacktrace of original doTryWithCallerStacktrace caller
+		at scala.concurrent.impl.Promise$.scala$concurrent$impl$Promise$$resolve(Promise.scala:99)
+		at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:278)
+		at scala.concurrent.Promise.complete(Promise.scala:57)
+		at scala.concurrent.Promise.complete$(Promise.scala:56)
+		at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:104)
+		at scala.concurrent.Promise.failure(Promise.scala:109)
+		at scala.concurrent.Promise.failure$(Promise.scala:109)
+		at scala.concurrent.impl.Promise$DefaultPromise.failure(Promise.scala:104)
+		at org.apache.spark.sql.execution.adaptive.ResultQueryStageExec.$anonfun$doMaterialize$2(QueryStageExec.scala:333)
+		at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:863)
+		at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:841)
+		at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+		at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		... 1 more
+Caused by: java.lang.UnsatisfiedLinkError: 'boolean org.apache.hadoop.io.nativeio.NativeIO$Windows.access0(java.lang.String, int)'
+	at org.apache.hadoop.io.nativeio.NativeIO$Windows.access0(Native Method)
+	at org.apache.hadoop.io.nativeio.NativeIO$Windows.access(NativeIO.java:817)
+	at org.apache.hadoop.fs.FileUtil.canRead(FileUtil.java:1415)
+	at org.apache.hadoop.fs.FileUtil.list(FileUtil.java:1620)
+	at org.apache.hadoop.fs.RawLocalFileSystem.listStatus(RawLocalFileSystem.java:739)
+	at org.apache.hadoop.fs.FileSystem.listStatus(FileSystem.java:2078)
+	at org.apache.hadoop.fs.FileSystem.listStatus(FileSystem.java:2122)
+	at org.apache.hadoop.fs.ChecksumFileSystem.listStatus(ChecksumFileSystem.java:961)
+	at org.apache.hadoop.fs.FileSystem.listStatus(FileSystem.java:2078)
+	at org.apache.hadoop.fs.FileSystem.listStatus(FileSystem.java:2122)
+	at org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.getAllCommittedTaskPaths(FileOutputCommitter.java:334)
+	at org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitJobInternal(FileOutputCommitter.java:404)
+	at org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitJob(FileOutputCommitter.java:377)
+	at org.apache.parquet.hadoop.ParquetOutputCommitter.commitJob(ParquetOutputCommitter.java:46)
+	at org.apache.spark.internal.io.HadoopMapReduceCommitProtocol.commitJob(HadoopMapReduceCommitProtocol.scala:194)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.$anonfun$writeAndCommit$3(FileFormatWriter.scala:275)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at org.apache.spark.util.Utils$.timeTakenMs(Utils.scala:481)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.writeAndCommit(FileFormatWriter.scala:275)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.executeWrite(FileFormatWriter.scala:306)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.write(FileFormatWriter.scala:189)
+	at org.apache.spark.sql.execution.datasources.InsertIntoHadoopFsRelationCommand.run(InsertIntoHadoopFsRelationCommand.scala:195)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult$lzycompute(commands.scala:117)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult(commands.scala:115)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.executeCollect(commands.scala:129)
+	at org.apache.spark.sql.execution.adaptive.AdaptiveSparkPlanExec.$anonfun$executeCollect$1(AdaptiveSparkPlanExec.scala:402)
+	at org.apache.spark.sql.execution.adaptive.ResultQueryStageExec.$anonfun$doMaterialize$1(QueryStageExec.scala:325)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withThreadLocalCaptured$4(SQLExecution.scala:318)
+	at org.apache.spark.sql.execution.SQLExecution$.withSessionTagsApplied(SQLExecution.scala:268)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withThreadLocalCaptured$3(SQLExecution.scala:316)
+	at org.apache.spark.JobArtifactSet$.withActiveJobArtifactState(JobArtifactSet.scala:94)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withThreadLocalCaptured$2(SQLExecution.scala:312)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	... 1 more
+
+2025-08-12 15:49:37,316 - __main__ - INFO - Spark session stopped
+2025-08-12 15:49:37,334 - py4j.clientserver - INFO - Closing down clientserver connection
+2025-08-12 15:58:11,519 - __main__ - INFO - Initializing Spark session...
+2025-08-12 15:58:18,798 - __main__ - INFO - Spark session initialized successfully
+2025-08-12 15:58:18,798 - __main__ - INFO - Reading CSV files from Sales_Data
+2025-08-12 15:58:18,798 - __main__ - INFO - Found 12 CSV files
+2025-08-12 15:58:18,798 - __main__ - INFO - Reading file 1/12: Sales_April_2019.csv
+2025-08-12 15:58:22,527 - __main__ - INFO -   Successfully read 18,383 rows from Sales_April_2019.csv
+2025-08-12 15:58:22,527 - __main__ - INFO - Reading file 2/12: Sales_August_2019.csv
+2025-08-12 15:58:22,733 - __main__ - INFO -   Successfully read 12,011 rows from Sales_August_2019.csv
+2025-08-12 15:58:22,733 - __main__ - INFO - Reading file 3/12: Sales_December_2019.csv
+2025-08-12 15:58:22,895 - __main__ - INFO -   Successfully read 25,117 rows from Sales_December_2019.csv
+2025-08-12 15:58:22,895 - __main__ - INFO - Reading file 4/12: Sales_February_2019.csv
+2025-08-12 15:58:23,015 - __main__ - INFO -   Successfully read 12,036 rows from Sales_February_2019.csv
+2025-08-12 15:58:23,015 - __main__ - INFO - Reading file 5/12: Sales_January_2019.csv
+2025-08-12 15:58:23,138 - __main__ - INFO -   Successfully read 9,723 rows from Sales_January_2019.csv
+2025-08-12 15:58:23,138 - __main__ - INFO - Reading file 6/12: Sales_July_2019.csv
+2025-08-12 15:58:23,254 - __main__ - INFO -   Successfully read 14,371 rows from Sales_July_2019.csv
+2025-08-12 15:58:23,254 - __main__ - INFO - Reading file 7/12: Sales_June_2019.csv
+2025-08-12 15:58:23,381 - __main__ - INFO -   Successfully read 13,622 rows from Sales_June_2019.csv
+2025-08-12 15:58:23,381 - __main__ - INFO - Reading file 8/12: Sales_March_2019.csv
+2025-08-12 15:58:23,504 - __main__ - INFO -   Successfully read 15,226 rows from Sales_March_2019.csv
+2025-08-12 15:58:23,504 - __main__ - INFO - Reading file 9/12: Sales_May_2019.csv
+2025-08-12 15:58:23,621 - __main__ - INFO -   Successfully read 16,635 rows from Sales_May_2019.csv
+2025-08-12 15:58:23,621 - __main__ - INFO - Reading file 10/12: Sales_November_2019.csv
+2025-08-12 15:58:23,722 - __main__ - INFO -   Successfully read 17,661 rows from Sales_November_2019.csv
+2025-08-12 15:58:23,722 - __main__ - INFO - Reading file 11/12: Sales_October_2019.csv
+2025-08-12 15:58:23,836 - __main__ - INFO -   Successfully read 20,379 rows from Sales_October_2019.csv
+2025-08-12 15:58:23,837 - __main__ - INFO - Reading file 12/12: Sales_September_2019.csv
+2025-08-12 15:58:23,953 - __main__ - INFO -   Successfully read 11,686 rows from Sales_September_2019.csv
+2025-08-12 15:58:23,953 - __main__ - INFO - Combining all CSV files...
+2025-08-12 15:58:24,460 - __main__ - INFO - Successfully combined 186,850 rows from 12 files
+2025-08-12 15:58:24,460 - __main__ - INFO - Formatting column names...
+2025-08-12 15:58:24,516 - __main__ - INFO - Column names formatted: ['order_id', 'product', 'quantity_ordered', 'price_each', 'order_date', 'purchase_address']
+2025-08-12 15:58:24,516 - __main__ - INFO - Starting comprehensive data cleaning...
+2025-08-12 15:58:24,811 - __main__ - INFO - Removing rows with null values in critical columns...
+2025-08-12 15:58:26,410 - __main__ - INFO - Removed 900 rows with null values
+2025-08-12 15:58:26,410 - __main__ - INFO - Filtering rows with valid integer Order IDs...
+2025-08-12 15:58:27,135 - __main__ - INFO - Removed 0 rows with invalid Order IDs
+2025-08-12 15:58:27,135 - __main__ - INFO - Removing rows with invalid quantities or prices...
+2025-08-12 15:58:27,170 - __main__ - INFO - Converting Order Date to timestamp format...
+2025-08-12 15:58:28,155 - __main__ - INFO - Data cleaning complete:
+2025-08-12 15:58:28,155 - __main__ - INFO -   - Initial rows: 186,850
+2025-08-12 15:58:28,155 - __main__ - INFO -   - Null rows removed: 900
+2025-08-12 15:58:28,155 - __main__ - INFO -   - Invalid Order ID rows removed: 0
+2025-08-12 15:58:28,155 - __main__ - INFO -   - Total rows removed: 900
+2025-08-12 15:58:28,158 - __main__ - INFO -   - Final clean rows: 185,950
+2025-08-12 15:58:28,158 - __main__ - INFO - Starting deduplication process...
+2025-08-12 15:58:28,675 - __main__ - INFO - Removing exact duplicate rows...
+2025-08-12 15:58:31,639 - __main__ - INFO - Deduplication complete:
+2025-08-12 15:58:31,639 - __main__ - INFO -   - Exact duplicates removed: 264
+2025-08-12 15:58:31,640 - __main__ - INFO -   - Final unique rows: 185,686
+2025-08-12 15:58:31,640 - __main__ - INFO - Performing data quality checks...
+2025-08-12 15:58:38,851 - __main__ - INFO -  All data quality checks passed
+2025-08-12 15:58:38,851 - __main__ - INFO - Writing data to cleansed
+2025-08-12 15:58:49,077 - __main__ - ERROR -  Pipeline failed with error: An error occurred while calling o344.parquet.
+: java.util.concurrent.ExecutionException: Boxed Exception
+	at scala.concurrent.impl.Promise$.scala$concurrent$impl$Promise$$resolve(Promise.scala:99)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:278)
+	at scala.concurrent.Promise.complete(Promise.scala:57)
+	at scala.concurrent.Promise.complete$(Promise.scala:56)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:104)
+	at scala.concurrent.Promise.failure(Promise.scala:109)
+	at scala.concurrent.Promise.failure$(Promise.scala:109)
+	at scala.concurrent.impl.Promise$DefaultPromise.failure(Promise.scala:104)
+	at org.apache.spark.sql.execution.adaptive.ResultQueryStageExec.$anonfun$doMaterialize$2(QueryStageExec.scala:333)
+	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:863)
+	at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:841)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.spark.util.Utils$.getTryWithCallerStacktrace(Utils.scala:1439)
+	at org.apache.spark.util.LazyTry.get(LazyTry.scala:58)
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted(QueryExecution.scala:131)
+	at org.apache.spark.sql.execution.QueryExecution.assertCommandExecuted(QueryExecution.scala:192)
+	at org.apache.spark.sql.classic.DataFrameWriter.runCommand(DataFrameWriter.scala:622)
+	at org.apache.spark.sql.classic.DataFrameWriter.saveToV1Source(DataFrameWriter.scala:273)
+	at org.apache.spark.sql.classic.DataFrameWriter.saveInternal(DataFrameWriter.scala:241)
+	at org.apache.spark.sql.classic.DataFrameWriter.save(DataFrameWriter.scala:118)
+	at org.apache.spark.sql.DataFrameWriter.parquet(DataFrameWriter.scala:369)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:184)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:108)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+	Suppressed: org.apache.spark.util.Utils$OriginalTryStackTraceException: Full stacktrace of original doTryWithCallerStacktrace caller
+		at scala.concurrent.impl.Promise$.scala$concurrent$impl$Promise$$resolve(Promise.scala:99)
+		at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:278)
+		at scala.concurrent.Promise.complete(Promise.scala:57)
+		at scala.concurrent.Promise.complete$(Promise.scala:56)
+		at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:104)
+		at scala.concurrent.Promise.failure(Promise.scala:109)
+		at scala.concurrent.Promise.failure$(Promise.scala:109)
+		at scala.concurrent.impl.Promise$DefaultPromise.failure(Promise.scala:104)
+		at org.apache.spark.sql.execution.adaptive.ResultQueryStageExec.$anonfun$doMaterialize$2(QueryStageExec.scala:333)
+		at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:863)
+		at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:841)
+		at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+		at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		... 1 more
+Caused by: java.lang.UnsatisfiedLinkError: 'boolean org.apache.hadoop.io.nativeio.NativeIO$Windows.access0(java.lang.String, int)'
+	at org.apache.hadoop.io.nativeio.NativeIO$Windows.access0(Native Method)
+	at org.apache.hadoop.io.nativeio.NativeIO$Windows.access(NativeIO.java:817)
+	at org.apache.hadoop.fs.FileUtil.canRead(FileUtil.java:1415)
+	at org.apache.hadoop.fs.FileUtil.list(FileUtil.java:1620)
+	at org.apache.hadoop.fs.RawLocalFileSystem.listStatus(RawLocalFileSystem.java:739)
+	at org.apache.hadoop.fs.FileSystem.listStatus(FileSystem.java:2078)
+	at org.apache.hadoop.fs.FileSystem.listStatus(FileSystem.java:2122)
+	at org.apache.hadoop.fs.ChecksumFileSystem.listStatus(ChecksumFileSystem.java:961)
+	at org.apache.hadoop.fs.FileSystem.listStatus(FileSystem.java:2078)
+	at org.apache.hadoop.fs.FileSystem.listStatus(FileSystem.java:2122)
+	at org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.getAllCommittedTaskPaths(FileOutputCommitter.java:334)
+	at org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitJobInternal(FileOutputCommitter.java:404)
+	at org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitJob(FileOutputCommitter.java:377)
+	at org.apache.parquet.hadoop.ParquetOutputCommitter.commitJob(ParquetOutputCommitter.java:46)
+	at org.apache.spark.internal.io.HadoopMapReduceCommitProtocol.commitJob(HadoopMapReduceCommitProtocol.scala:194)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.$anonfun$writeAndCommit$3(FileFormatWriter.scala:275)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at org.apache.spark.util.Utils$.timeTakenMs(Utils.scala:481)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.writeAndCommit(FileFormatWriter.scala:275)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.executeWrite(FileFormatWriter.scala:306)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.write(FileFormatWriter.scala:189)
+	at org.apache.spark.sql.execution.datasources.InsertIntoHadoopFsRelationCommand.run(InsertIntoHadoopFsRelationCommand.scala:195)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult$lzycompute(commands.scala:117)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult(commands.scala:115)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.executeCollect(commands.scala:129)
+	at org.apache.spark.sql.execution.adaptive.AdaptiveSparkPlanExec.$anonfun$executeCollect$1(AdaptiveSparkPlanExec.scala:402)
+	at org.apache.spark.sql.execution.adaptive.ResultQueryStageExec.$anonfun$doMaterialize$1(QueryStageExec.scala:325)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withThreadLocalCaptured$4(SQLExecution.scala:318)
+	at org.apache.spark.sql.execution.SQLExecution$.withSessionTagsApplied(SQLExecution.scala:268)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withThreadLocalCaptured$3(SQLExecution.scala:316)
+	at org.apache.spark.JobArtifactSet$.withActiveJobArtifactState(JobArtifactSet.scala:94)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withThreadLocalCaptured$2(SQLExecution.scala:312)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	... 1 more
+
+2025-08-12 15:58:49,428 - __main__ - INFO - Spark session stopped
+2025-08-12 15:58:49,445 - py4j.clientserver - INFO - Closing down clientserver connection
+2025-08-12 16:14:23,619 - __main__ - INFO -  Starting Enhanced Sales Data Pipeline at 2025-08-12 16:14:23.619989
+2025-08-12 16:14:23,620 - __main__ - INFO - Initializing Spark session...
+2025-08-12 16:14:43,844 - __main__ - INFO - Spark session initialized successfully
+2025-08-12 16:14:43,844 - __main__ - INFO - Reading CSV files from Sales_Data
+2025-08-12 16:14:43,846 - __main__ - INFO - Found 12 CSV files
+2025-08-12 16:14:43,846 - __main__ - INFO - Reading file 1/12: Sales_April_2019.csv
+2025-08-12 16:14:47,726 - __main__ - INFO -   Successfully read 18,383 rows from Sales_April_2019.csv
+2025-08-12 16:14:47,727 - __main__ - INFO - Reading file 2/12: Sales_August_2019.csv
+2025-08-12 16:14:47,890 - __main__ - INFO -   Successfully read 12,011 rows from Sales_August_2019.csv
+2025-08-12 16:14:47,890 - __main__ - INFO - Reading file 3/12: Sales_December_2019.csv
+2025-08-12 16:14:48,054 - __main__ - INFO -   Successfully read 25,117 rows from Sales_December_2019.csv
+2025-08-12 16:14:48,054 - __main__ - INFO - Reading file 4/12: Sales_February_2019.csv
+2025-08-12 16:14:48,193 - __main__ - INFO -   Successfully read 12,036 rows from Sales_February_2019.csv
+2025-08-12 16:14:48,193 - __main__ - INFO - Reading file 5/12: Sales_January_2019.csv
+2025-08-12 16:14:48,328 - __main__ - INFO -   Successfully read 9,723 rows from Sales_January_2019.csv
+2025-08-12 16:14:48,329 - __main__ - INFO - Reading file 6/12: Sales_July_2019.csv
+2025-08-12 16:14:48,470 - __main__ - INFO -   Successfully read 14,371 rows from Sales_July_2019.csv
+2025-08-12 16:14:48,471 - __main__ - INFO - Reading file 7/12: Sales_June_2019.csv
+2025-08-12 16:14:48,620 - __main__ - INFO -   Successfully read 13,622 rows from Sales_June_2019.csv
+2025-08-12 16:14:48,622 - __main__ - INFO - Reading file 8/12: Sales_March_2019.csv
+2025-08-12 16:14:48,803 - __main__ - INFO -   Successfully read 15,226 rows from Sales_March_2019.csv
+2025-08-12 16:14:48,804 - __main__ - INFO - Reading file 9/12: Sales_May_2019.csv
+2025-08-12 16:14:48,924 - __main__ - INFO -   Successfully read 16,635 rows from Sales_May_2019.csv
+2025-08-12 16:14:48,925 - __main__ - INFO - Reading file 10/12: Sales_November_2019.csv
+2025-08-12 16:14:49,038 - __main__ - INFO -   Successfully read 17,661 rows from Sales_November_2019.csv
+2025-08-12 16:14:49,038 - __main__ - INFO - Reading file 11/12: Sales_October_2019.csv
+2025-08-12 16:14:49,141 - __main__ - INFO -   Successfully read 20,379 rows from Sales_October_2019.csv
+2025-08-12 16:14:49,141 - __main__ - INFO - Reading file 12/12: Sales_September_2019.csv
+2025-08-12 16:14:49,240 - __main__ - INFO -   Successfully read 11,686 rows from Sales_September_2019.csv
+2025-08-12 16:14:49,241 - __main__ - INFO - Combining all CSV files...
+2025-08-12 16:14:49,702 - __main__ - INFO - Successfully combined 186,850 rows from 12 files
+2025-08-12 16:14:49,703 - __main__ - INFO - Formatting column names...
+2025-08-12 16:14:49,743 - __main__ - INFO - Column names formatted: ['order_id', 'product', 'quantity_ordered', 'price_each', 'order_date', 'purchase_address']
+2025-08-12 16:14:49,743 - __main__ - INFO - Starting comprehensive data cleaning...
+2025-08-12 16:14:50,044 - __main__ - INFO - Removing rows with null values in critical columns...
+2025-08-12 16:14:53,660 - __main__ - INFO - Removed 900 rows with null values
+2025-08-12 16:14:53,661 - __main__ - INFO - Filtering rows with valid integer Order IDs...
+2025-08-12 16:14:54,490 - __main__ - INFO - Removed 0 rows with invalid Order IDs
+2025-08-12 16:14:54,490 - __main__ - INFO - Removing rows with invalid quantities or prices...
+2025-08-12 16:14:54,529 - __main__ - INFO - Converting Order Date to timestamp format...
+2025-08-12 16:14:55,640 - __main__ - INFO - Data cleaning complete: 185,950 rows remaining
+2025-08-12 16:14:55,641 - __main__ - INFO - Starting Window function-based deduplication...
+2025-08-12 16:14:56,256 - __main__ - INFO - Applying Window function with row_number()...
+2025-08-12 16:14:59,807 - __main__ - INFO - Window function deduplication complete:
+2025-08-12 16:14:59,807 - __main__ - INFO -   - Initial rows: 185,950
+2025-08-12 16:14:59,808 - __main__ - INFO -   - Duplicates removed: 311
+2025-08-12 16:14:59,808 - __main__ - INFO -   - Final unique rows: 185,639
+2025-08-12 16:14:59,808 - __main__ - INFO -   - Deduplication strategy: Keep most recent record per Order ID + Product
+2025-08-12 16:14:59,808 - __main__ - INFO - Performing enhanced data quality checks...
+2025-08-12 16:15:16,869 - __main__ - INFO - Data quality check results:
+2025-08-12 16:15:16,869 - __main__ - INFO -   - Total rows: 185,639
+2025-08-12 16:15:16,869 - __main__ - INFO -   - Distinct products: 19
+2025-08-12 16:15:16,869 - __main__ - INFO -   - Distinct orders: 178,437
+2025-08-12 16:15:16,869 - __main__ - INFO -   - Quality status: PASSED
+2025-08-12 16:15:16,870 - __main__ - INFO - Writing data to Parquet format with partitioning...
+2025-08-12 16:15:16,883 - __main__ - INFO - Partitioning strategy: BY order_year, order_month
+2025-08-12 16:15:16,883 - __main__ - INFO - File format: Parquet with Snappy compression
+2025-08-12 16:15:16,883 - __main__ - INFO - Output location: cleansed\sales_data_processed
+2025-08-12 16:15:26,527 - __main__ - ERROR -  Failed to write Parquet files: An error occurred while calling o399.parquet.
+: java.util.concurrent.ExecutionException: Boxed Exception
+	at scala.concurrent.impl.Promise$.scala$concurrent$impl$Promise$$resolve(Promise.scala:99)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:278)
+	at scala.concurrent.Promise.complete(Promise.scala:57)
+	at scala.concurrent.Promise.complete$(Promise.scala:56)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:104)
+	at scala.concurrent.Promise.failure(Promise.scala:109)
+	at scala.concurrent.Promise.failure$(Promise.scala:109)
+	at scala.concurrent.impl.Promise$DefaultPromise.failure(Promise.scala:104)
+	at org.apache.spark.sql.execution.adaptive.ResultQueryStageExec.$anonfun$doMaterialize$2(QueryStageExec.scala:333)
+	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:863)
+	at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:841)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.spark.util.Utils$.getTryWithCallerStacktrace(Utils.scala:1439)
+	at org.apache.spark.util.LazyTry.get(LazyTry.scala:58)
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted(QueryExecution.scala:131)
+	at org.apache.spark.sql.execution.QueryExecution.assertCommandExecuted(QueryExecution.scala:192)
+	at org.apache.spark.sql.classic.DataFrameWriter.runCommand(DataFrameWriter.scala:622)
+	at org.apache.spark.sql.classic.DataFrameWriter.saveToV1Source(DataFrameWriter.scala:273)
+	at org.apache.spark.sql.classic.DataFrameWriter.saveInternal(DataFrameWriter.scala:241)
+	at org.apache.spark.sql.classic.DataFrameWriter.save(DataFrameWriter.scala:118)
+	at org.apache.spark.sql.DataFrameWriter.parquet(DataFrameWriter.scala:369)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:184)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:108)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+	Suppressed: org.apache.spark.util.Utils$OriginalTryStackTraceException: Full stacktrace of original doTryWithCallerStacktrace caller
+		at scala.concurrent.impl.Promise$.scala$concurrent$impl$Promise$$resolve(Promise.scala:99)
+		at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:278)
+		at scala.concurrent.Promise.complete(Promise.scala:57)
+		at scala.concurrent.Promise.complete$(Promise.scala:56)
+		at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:104)
+		at scala.concurrent.Promise.failure(Promise.scala:109)
+		at scala.concurrent.Promise.failure$(Promise.scala:109)
+		at scala.concurrent.impl.Promise$DefaultPromise.failure(Promise.scala:104)
+		at org.apache.spark.sql.execution.adaptive.ResultQueryStageExec.$anonfun$doMaterialize$2(QueryStageExec.scala:333)
+		at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:863)
+		at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:841)
+		at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+		at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		... 1 more
+Caused by: java.lang.UnsatisfiedLinkError: 'boolean org.apache.hadoop.io.nativeio.NativeIO$Windows.access0(java.lang.String, int)'
+	at org.apache.hadoop.io.nativeio.NativeIO$Windows.access0(Native Method)
+	at org.apache.hadoop.io.nativeio.NativeIO$Windows.access(NativeIO.java:817)
+	at org.apache.hadoop.fs.FileUtil.canRead(FileUtil.java:1415)
+	at org.apache.hadoop.fs.FileUtil.list(FileUtil.java:1620)
+	at org.apache.hadoop.fs.RawLocalFileSystem.listStatus(RawLocalFileSystem.java:739)
+	at org.apache.hadoop.fs.FileSystem.listStatus(FileSystem.java:2078)
+	at org.apache.hadoop.fs.FileSystem.listStatus(FileSystem.java:2122)
+	at org.apache.hadoop.fs.ChecksumFileSystem.listStatus(ChecksumFileSystem.java:961)
+	at org.apache.hadoop.fs.FileSystem.listStatus(FileSystem.java:2078)
+	at org.apache.hadoop.fs.FileSystem.listStatus(FileSystem.java:2122)
+	at org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.getAllCommittedTaskPaths(FileOutputCommitter.java:334)
+	at org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitJobInternal(FileOutputCommitter.java:404)
+	at org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitJob(FileOutputCommitter.java:377)
+	at org.apache.parquet.hadoop.ParquetOutputCommitter.commitJob(ParquetOutputCommitter.java:46)
+	at org.apache.spark.internal.io.HadoopMapReduceCommitProtocol.commitJob(HadoopMapReduceCommitProtocol.scala:194)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.$anonfun$writeAndCommit$3(FileFormatWriter.scala:275)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at org.apache.spark.util.Utils$.timeTakenMs(Utils.scala:481)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.writeAndCommit(FileFormatWriter.scala:275)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.executeWrite(FileFormatWriter.scala:306)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.write(FileFormatWriter.scala:189)
+	at org.apache.spark.sql.execution.datasources.InsertIntoHadoopFsRelationCommand.run(InsertIntoHadoopFsRelationCommand.scala:195)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult$lzycompute(commands.scala:117)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult(commands.scala:115)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.executeCollect(commands.scala:129)
+	at org.apache.spark.sql.execution.adaptive.AdaptiveSparkPlanExec.$anonfun$executeCollect$1(AdaptiveSparkPlanExec.scala:402)
+	at org.apache.spark.sql.execution.adaptive.ResultQueryStageExec.$anonfun$doMaterialize$1(QueryStageExec.scala:325)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withThreadLocalCaptured$4(SQLExecution.scala:318)
+	at org.apache.spark.sql.execution.SQLExecution$.withSessionTagsApplied(SQLExecution.scala:268)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withThreadLocalCaptured$3(SQLExecution.scala:316)
+	at org.apache.spark.JobArtifactSet$.withActiveJobArtifactState(JobArtifactSet.scala:94)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withThreadLocalCaptured$2(SQLExecution.scala:312)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	... 1 more
+
+2025-08-12 16:15:26,529 - __main__ - ERROR -  Enhanced pipeline failed with error: An error occurred while calling o399.parquet.
+: java.util.concurrent.ExecutionException: Boxed Exception
+	at scala.concurrent.impl.Promise$.scala$concurrent$impl$Promise$$resolve(Promise.scala:99)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:278)
+	at scala.concurrent.Promise.complete(Promise.scala:57)
+	at scala.concurrent.Promise.complete$(Promise.scala:56)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:104)
+	at scala.concurrent.Promise.failure(Promise.scala:109)
+	at scala.concurrent.Promise.failure$(Promise.scala:109)
+	at scala.concurrent.impl.Promise$DefaultPromise.failure(Promise.scala:104)
+	at org.apache.spark.sql.execution.adaptive.ResultQueryStageExec.$anonfun$doMaterialize$2(QueryStageExec.scala:333)
+	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:863)
+	at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:841)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.spark.util.Utils$.getTryWithCallerStacktrace(Utils.scala:1439)
+	at org.apache.spark.util.LazyTry.get(LazyTry.scala:58)
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted(QueryExecution.scala:131)
+	at org.apache.spark.sql.execution.QueryExecution.assertCommandExecuted(QueryExecution.scala:192)
+	at org.apache.spark.sql.classic.DataFrameWriter.runCommand(DataFrameWriter.scala:622)
+	at org.apache.spark.sql.classic.DataFrameWriter.saveToV1Source(DataFrameWriter.scala:273)
+	at org.apache.spark.sql.classic.DataFrameWriter.saveInternal(DataFrameWriter.scala:241)
+	at org.apache.spark.sql.classic.DataFrameWriter.save(DataFrameWriter.scala:118)
+	at org.apache.spark.sql.DataFrameWriter.parquet(DataFrameWriter.scala:369)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:184)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:108)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+	Suppressed: org.apache.spark.util.Utils$OriginalTryStackTraceException: Full stacktrace of original doTryWithCallerStacktrace caller
+		at scala.concurrent.impl.Promise$.scala$concurrent$impl$Promise$$resolve(Promise.scala:99)
+		at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:278)
+		at scala.concurrent.Promise.complete(Promise.scala:57)
+		at scala.concurrent.Promise.complete$(Promise.scala:56)
+		at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:104)
+		at scala.concurrent.Promise.failure(Promise.scala:109)
+		at scala.concurrent.Promise.failure$(Promise.scala:109)
+		at scala.concurrent.impl.Promise$DefaultPromise.failure(Promise.scala:104)
+		at org.apache.spark.sql.execution.adaptive.ResultQueryStageExec.$anonfun$doMaterialize$2(QueryStageExec.scala:333)
+		at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:863)
+		at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:841)
+		at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+		at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		... 1 more
+Caused by: java.lang.UnsatisfiedLinkError: 'boolean org.apache.hadoop.io.nativeio.NativeIO$Windows.access0(java.lang.String, int)'
+	at org.apache.hadoop.io.nativeio.NativeIO$Windows.access0(Native Method)
+	at org.apache.hadoop.io.nativeio.NativeIO$Windows.access(NativeIO.java:817)
+	at org.apache.hadoop.fs.FileUtil.canRead(FileUtil.java:1415)
+	at org.apache.hadoop.fs.FileUtil.list(FileUtil.java:1620)
+	at org.apache.hadoop.fs.RawLocalFileSystem.listStatus(RawLocalFileSystem.java:739)
+	at org.apache.hadoop.fs.FileSystem.listStatus(FileSystem.java:2078)
+	at org.apache.hadoop.fs.FileSystem.listStatus(FileSystem.java:2122)
+	at org.apache.hadoop.fs.ChecksumFileSystem.listStatus(ChecksumFileSystem.java:961)
+	at org.apache.hadoop.fs.FileSystem.listStatus(FileSystem.java:2078)
+	at org.apache.hadoop.fs.FileSystem.listStatus(FileSystem.java:2122)
+	at org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.getAllCommittedTaskPaths(FileOutputCommitter.java:334)
+	at org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitJobInternal(FileOutputCommitter.java:404)
+	at org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitJob(FileOutputCommitter.java:377)
+	at org.apache.parquet.hadoop.ParquetOutputCommitter.commitJob(ParquetOutputCommitter.java:46)
+	at org.apache.spark.internal.io.HadoopMapReduceCommitProtocol.commitJob(HadoopMapReduceCommitProtocol.scala:194)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.$anonfun$writeAndCommit$3(FileFormatWriter.scala:275)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at org.apache.spark.util.Utils$.timeTakenMs(Utils.scala:481)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.writeAndCommit(FileFormatWriter.scala:275)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.executeWrite(FileFormatWriter.scala:306)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.write(FileFormatWriter.scala:189)
+	at org.apache.spark.sql.execution.datasources.InsertIntoHadoopFsRelationCommand.run(InsertIntoHadoopFsRelationCommand.scala:195)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult$lzycompute(commands.scala:117)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult(commands.scala:115)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.executeCollect(commands.scala:129)
+	at org.apache.spark.sql.execution.adaptive.AdaptiveSparkPlanExec.$anonfun$executeCollect$1(AdaptiveSparkPlanExec.scala:402)
+	at org.apache.spark.sql.execution.adaptive.ResultQueryStageExec.$anonfun$doMaterialize$1(QueryStageExec.scala:325)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withThreadLocalCaptured$4(SQLExecution.scala:318)
+	at org.apache.spark.sql.execution.SQLExecution$.withSessionTagsApplied(SQLExecution.scala:268)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withThreadLocalCaptured$3(SQLExecution.scala:316)
+	at org.apache.spark.JobArtifactSet$.withActiveJobArtifactState(JobArtifactSet.scala:94)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withThreadLocalCaptured$2(SQLExecution.scala:312)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	... 1 more
+
+2025-08-12 16:15:26,972 - __main__ - INFO - Spark session stopped
+2025-08-12 16:15:26,993 - py4j.clientserver - INFO - Closing down clientserver connection
+2025-08-12 16:18:03,228 - __main__ - INFO - Initializing Windows-compatible Spark session...
+2025-08-12 16:18:10,455 - __main__ - INFO - Reading CSV files from Sales_Data
+2025-08-12 16:18:10,456 - __main__ - INFO - Found 12 CSV files
+2025-08-12 16:18:10,456 - __main__ - INFO - Reading file 1/12: Sales_April_2019.csv
+2025-08-12 16:18:14,214 - __main__ - INFO - Reading file 2/12: Sales_August_2019.csv
+2025-08-12 16:18:14,408 - __main__ - INFO - Reading file 3/12: Sales_December_2019.csv
+2025-08-12 16:18:14,614 - __main__ - INFO - Reading file 4/12: Sales_February_2019.csv
+2025-08-12 16:18:14,789 - __main__ - INFO - Reading file 5/12: Sales_January_2019.csv
+2025-08-12 16:18:14,968 - __main__ - INFO - Reading file 6/12: Sales_July_2019.csv
+2025-08-12 16:18:15,146 - __main__ - INFO - Reading file 7/12: Sales_June_2019.csv
+2025-08-12 16:18:15,302 - __main__ - INFO - Reading file 8/12: Sales_March_2019.csv
+2025-08-12 16:18:15,463 - __main__ - INFO - Reading file 9/12: Sales_May_2019.csv
+2025-08-12 16:18:15,653 - __main__ - INFO - Reading file 10/12: Sales_November_2019.csv
+2025-08-12 16:18:15,824 - __main__ - INFO - Reading file 11/12: Sales_October_2019.csv
+2025-08-12 16:18:15,978 - __main__ - INFO - Reading file 12/12: Sales_September_2019.csv
+2025-08-12 16:18:16,140 - __main__ - INFO - Combining all CSV files...
+2025-08-12 16:18:16,929 - __main__ - INFO - Formatting column names...
+2025-08-12 16:18:17,001 - __main__ - INFO - Starting comprehensive data cleaning...
+2025-08-12 16:18:17,436 - __main__ - INFO - Removing rows with null values in critical columns...
+2025-08-12 16:18:19,743 - __main__ - INFO - Filtering rows with valid integer Order IDs...
+2025-08-12 16:18:20,703 - __main__ - INFO - Removing rows with invalid quantities or prices...
+2025-08-12 16:18:20,743 - __main__ - INFO - Converting Order Date to timestamp format...
+2025-08-12 16:18:21,961 - __main__ - INFO - Starting Window function-based deduplication...
+2025-08-12 16:18:22,680 - __main__ - INFO - Applying Window function with row_number()...
+2025-08-12 16:18:27,125 - __main__ - INFO -   - Initial rows: 185,950
+2025-08-12 16:18:27,125 - __main__ - INFO -   - Duplicates removed: 311
+2025-08-12 16:18:27,126 - __main__ - INFO -   - Final unique rows: 185,639
+2025-08-12 16:18:27,126 - __main__ - INFO -   - Strategy: Keep most recent record per Order ID + Product
+2025-08-12 16:18:27,126 - __main__ - INFO - Performing enhanced data quality checks...
+2025-08-12 16:18:44,658 - __main__ - INFO -   - Total rows: 185,639
+2025-08-12 16:18:44,658 - __main__ - INFO -   - Distinct products: 19
+2025-08-12 16:18:44,658 - __main__ - INFO -   - Distinct orders: 178,437
+2025-08-12 16:18:44,660 - __main__ - INFO - Using CSV fallback method to avoid Windows compatibility issues...
+2025-08-12 16:18:46,656 - __main__ - INFO - Creating 13 partition files by year/month...
+2025-08-12 16:19:19,983 - __main__ - INFO - Generating enhanced processing summary...
+2025-08-12 16:19:20,537 - __main__ - INFO - Spark session stopped
+2025-08-12 16:19:20,557 - py4j.clientserver - INFO - Closing down clientserver connection
+2025-08-12 16:21:55,729 - __main__ - INFO -  Starting Windows-Compatible Sales Data Pipeline at 2025-08-12 16:21:55.729560
+2025-08-12 16:21:55,730 - __main__ - INFO - Initializing Windows-compatible Spark session...
+2025-08-12 16:22:03,383 - __main__ - INFO -  Windows-compatible Spark session initialized successfully
+2025-08-12 16:22:03,383 - __main__ - INFO - Reading CSV files from Sales_Data
+2025-08-12 16:22:03,384 - __main__ - INFO - Found 12 CSV files
+2025-08-12 16:22:03,384 - __main__ - INFO - Reading file 1/12: Sales_April_2019.csv
+2025-08-12 16:22:07,296 - __main__ - INFO -    Successfully read 18,383 rows from Sales_April_2019.csv
+2025-08-12 16:22:07,297 - __main__ - INFO - Reading file 2/12: Sales_August_2019.csv
+2025-08-12 16:22:07,521 - __main__ - INFO -    Successfully read 12,011 rows from Sales_August_2019.csv
+2025-08-12 16:22:07,521 - __main__ - INFO - Reading file 3/12: Sales_December_2019.csv
+2025-08-12 16:22:07,723 - __main__ - INFO -    Successfully read 25,117 rows from Sales_December_2019.csv
+2025-08-12 16:22:07,724 - __main__ - INFO - Reading file 4/12: Sales_February_2019.csv
+2025-08-12 16:22:07,899 - __main__ - INFO -    Successfully read 12,036 rows from Sales_February_2019.csv
+2025-08-12 16:22:07,900 - __main__ - INFO - Reading file 5/12: Sales_January_2019.csv
+2025-08-12 16:22:08,031 - __main__ - INFO -    Successfully read 9,723 rows from Sales_January_2019.csv
+2025-08-12 16:22:08,031 - __main__ - INFO - Reading file 6/12: Sales_July_2019.csv
+2025-08-12 16:22:08,168 - __main__ - INFO -    Successfully read 14,371 rows from Sales_July_2019.csv
+2025-08-12 16:22:08,168 - __main__ - INFO - Reading file 7/12: Sales_June_2019.csv
+2025-08-12 16:22:08,294 - __main__ - INFO -    Successfully read 13,622 rows from Sales_June_2019.csv
+2025-08-12 16:22:08,295 - __main__ - INFO - Reading file 8/12: Sales_March_2019.csv
+2025-08-12 16:22:08,469 - __main__ - INFO -    Successfully read 15,226 rows from Sales_March_2019.csv
+2025-08-12 16:22:08,469 - __main__ - INFO - Reading file 9/12: Sales_May_2019.csv
+2025-08-12 16:22:08,707 - __main__ - INFO -    Successfully read 16,635 rows from Sales_May_2019.csv
+2025-08-12 16:22:08,707 - __main__ - INFO - Reading file 10/12: Sales_November_2019.csv
+2025-08-12 16:22:08,904 - __main__ - INFO -    Successfully read 17,661 rows from Sales_November_2019.csv
+2025-08-12 16:22:08,904 - __main__ - INFO - Reading file 11/12: Sales_October_2019.csv
+2025-08-12 16:22:09,116 - __main__ - INFO -    Successfully read 20,379 rows from Sales_October_2019.csv
+2025-08-12 16:22:09,116 - __main__ - INFO - Reading file 12/12: Sales_September_2019.csv
+2025-08-12 16:22:09,250 - __main__ - INFO -    Successfully read 11,686 rows from Sales_September_2019.csv
+2025-08-12 16:22:09,250 - __main__ - INFO - Combining all CSV files...
+2025-08-12 16:22:09,862 - __main__ - INFO -  Successfully combined 186,850 rows from 12 files
+2025-08-12 16:22:09,862 - __main__ - INFO - Formatting column names...
+2025-08-12 16:22:09,902 - __main__ - INFO -  Column names formatted: ['order_id', 'product', 'quantity_ordered', 'price_each', 'order_date', 'purchase_address']
+2025-08-12 16:22:09,903 - __main__ - INFO - Starting comprehensive data cleaning...
+2025-08-12 16:22:10,218 - __main__ - INFO - Removing rows with null values in critical columns...
+2025-08-12 16:22:12,127 - __main__ - INFO -  Removed 900 rows with null values
+2025-08-12 16:22:12,128 - __main__ - INFO - Filtering rows with valid integer Order IDs...
+2025-08-12 16:22:12,892 - __main__ - INFO -  Removed 0 rows with invalid Order IDs
+2025-08-12 16:22:12,892 - __main__ - INFO - Removing rows with invalid quantities or prices...
+2025-08-12 16:22:12,930 - __main__ - INFO - Converting Order Date to timestamp format...
+2025-08-12 16:22:14,042 - __main__ - INFO -  Data cleaning complete: 185,950 rows remaining
+2025-08-12 16:22:14,042 - __main__ - INFO - Starting Window function-based deduplication...
+2025-08-12 16:22:14,626 - __main__ - INFO - Applying Window function with row_number()...
+2025-08-12 16:22:18,568 - __main__ - INFO -  Window function deduplication complete:
+2025-08-12 16:22:18,568 - __main__ - INFO -   - Initial rows: 185,950
+2025-08-12 16:22:18,568 - __main__ - INFO -   - Duplicates removed: 311
+2025-08-12 16:22:18,568 - __main__ - INFO -   - Final unique rows: 185,639
+2025-08-12 16:22:18,568 - __main__ - INFO -   - Strategy: Keep most recent record per Order ID + Product
+2025-08-12 16:22:18,568 - __main__ - INFO - Performing enhanced data quality checks...
+2025-08-12 16:22:38,252 - __main__ - INFO -  Data quality check results:
+2025-08-12 16:22:38,252 - __main__ - INFO -   - Total rows: 185,639
+2025-08-12 16:22:38,252 - __main__ - INFO -   - Distinct products: 19
+2025-08-12 16:22:38,252 - __main__ - INFO -   - Distinct orders: 178,437
+2025-08-12 16:22:38,253 - __main__ - INFO -   - Quality status:  PASSED
+2025-08-12 16:22:38,253 - __main__ - INFO - Using CSV fallback method to avoid Windows compatibility issues...
+2025-08-12 16:22:40,242 - __main__ - INFO - Creating 13 partition files by year/month...
+2025-08-12 16:22:43,859 - __main__ - INFO -    Partition 2019-10: 20,243 rows -> cleansed\order_year=2019\order_month=10\sales_data_2019_10.csv
+2025-08-12 16:22:46,534 - __main__ - INFO -    Partition 2019-05: 16,544 rows -> cleansed\order_year=2019\order_month=5\sales_data_2019_05.csv
+2025-08-12 16:22:49,355 - __main__ - INFO -    Partition 2019-03: 15,125 rows -> cleansed\order_year=2019\order_month=3\sales_data_2019_03.csv
+2025-08-12 16:22:52,101 - __main__ - INFO -    Partition 2019-08: 11,938 rows -> cleansed\order_year=2019\order_month=8\sales_data_2019_08.csv
+2025-08-12 16:22:54,226 - __main__ - INFO -    Partition 2019-06: 13,533 rows -> cleansed\order_year=2019\order_month=6\sales_data_2019_06.csv
+2025-08-12 16:22:56,473 - __main__ - INFO -    Partition 2019-01: 9,665 rows -> cleansed\order_year=2019\order_month=1\sales_data_2019_01.csv
+2025-08-12 16:22:58,979 - __main__ - INFO -    Partition 2019-02: 11,953 rows -> cleansed\order_year=2019\order_month=2\sales_data_2019_02.csv
+2025-08-12 16:23:00,379 - __main__ - INFO -    Partition 2020-01: 34 rows -> cleansed\order_year=2020\order_month=1\sales_data_2020_01.csv
+2025-08-12 16:23:03,036 - __main__ - INFO -    Partition 2019-04: 18,254 rows -> cleansed\order_year=2019\order_month=4\sales_data_2019_04.csv
+2025-08-12 16:23:05,330 - __main__ - INFO -    Partition 2019-09: 11,602 rows -> cleansed\order_year=2019\order_month=9\sales_data_2019_09.csv
+2025-08-12 16:23:08,294 - __main__ - INFO -    Partition 2019-12: 24,935 rows -> cleansed\order_year=2019\order_month=12\sales_data_2019_12.csv
+2025-08-12 16:23:10,564 - __main__ - INFO -    Partition 2019-07: 14,273 rows -> cleansed\order_year=2019\order_month=7\sales_data_2019_07.csv
+2025-08-12 16:23:13,487 - __main__ - INFO -    Partition 2019-11: 17,540 rows -> cleansed\order_year=2019\order_month=11\sales_data_2019_11.csv
+2025-08-12 16:23:18,677 - __main__ - INFO -  Successfully written 185,639 rows across 13 partitions
+2025-08-12 16:23:18,678 - __main__ - INFO -  Output location: cleansed
+2025-08-12 16:23:18,679 - __main__ - INFO - Generating enhanced processing summary...
+2025-08-12 16:23:18,693 - __main__ - ERROR -  Windows-compatible pipeline failed with error: 'charmap' codec can't encode character '\u2705' in position 669: character maps to <undefined>
+2025-08-12 16:23:19,069 - __main__ - INFO - Spark session stopped
+2025-08-12 16:23:19,097 - py4j.clientserver - INFO - Closing down clientserver connection
+2025-08-12 16:38:04,710 - __main__ - INFO -  Starting Windows-Compatible Sales Data Pipeline at 2025-08-12 16:38:04.710035
+2025-08-12 16:38:04,710 - __main__ - INFO - Initializing Windows-compatible Spark session...
+2025-08-12 16:38:13,018 - __main__ - INFO -  Windows-compatible Spark session initialized successfully
+2025-08-12 16:38:13,018 - __main__ - INFO - Reading CSV files from Sales_Data
+2025-08-12 16:38:13,018 - __main__ - INFO - Found 12 CSV files
+2025-08-12 16:38:13,018 - __main__ - INFO - Reading file 1/12: Sales_April_2019.csv
+2025-08-12 16:38:16,989 - __main__ - INFO -    Successfully read 18,383 rows from Sales_April_2019.csv
+2025-08-12 16:38:16,991 - __main__ - INFO - Reading file 2/12: Sales_August_2019.csv
+2025-08-12 16:38:17,199 - __main__ - INFO -    Successfully read 12,011 rows from Sales_August_2019.csv
+2025-08-12 16:38:17,199 - __main__ - INFO - Reading file 3/12: Sales_December_2019.csv
+2025-08-12 16:38:17,385 - __main__ - INFO -    Successfully read 25,117 rows from Sales_December_2019.csv
+2025-08-12 16:38:17,385 - __main__ - INFO - Reading file 4/12: Sales_February_2019.csv
+2025-08-12 16:38:17,515 - __main__ - INFO -    Successfully read 12,036 rows from Sales_February_2019.csv
+2025-08-12 16:38:17,515 - __main__ - INFO - Reading file 5/12: Sales_January_2019.csv
+2025-08-12 16:38:17,653 - __main__ - INFO -    Successfully read 9,723 rows from Sales_January_2019.csv
+2025-08-12 16:38:17,653 - __main__ - INFO - Reading file 6/12: Sales_July_2019.csv
+2025-08-12 16:38:17,801 - __main__ - INFO -    Successfully read 14,371 rows from Sales_July_2019.csv
+2025-08-12 16:38:17,801 - __main__ - INFO - Reading file 7/12: Sales_June_2019.csv
+2025-08-12 16:38:17,955 - __main__ - INFO -    Successfully read 13,622 rows from Sales_June_2019.csv
+2025-08-12 16:38:17,955 - __main__ - INFO - Reading file 8/12: Sales_March_2019.csv
+2025-08-12 16:38:18,109 - __main__ - INFO -    Successfully read 15,226 rows from Sales_March_2019.csv
+2025-08-12 16:38:18,109 - __main__ - INFO - Reading file 9/12: Sales_May_2019.csv
+2025-08-12 16:38:18,262 - __main__ - INFO -    Successfully read 16,635 rows from Sales_May_2019.csv
+2025-08-12 16:38:18,262 - __main__ - INFO - Reading file 10/12: Sales_November_2019.csv
+2025-08-12 16:38:18,405 - __main__ - INFO -    Successfully read 17,661 rows from Sales_November_2019.csv
+2025-08-12 16:38:18,405 - __main__ - INFO - Reading file 11/12: Sales_October_2019.csv
+2025-08-12 16:38:18,536 - __main__ - INFO -    Successfully read 20,379 rows from Sales_October_2019.csv
+2025-08-12 16:38:18,536 - __main__ - INFO - Reading file 12/12: Sales_September_2019.csv
+2025-08-12 16:38:18,685 - __main__ - INFO -    Successfully read 11,686 rows from Sales_September_2019.csv
+2025-08-12 16:38:18,685 - __main__ - INFO - Combining all CSV files...
+2025-08-12 16:38:19,294 - __main__ - INFO -  Successfully combined 186,850 rows from 12 files
+2025-08-12 16:38:19,294 - __main__ - INFO - Formatting column names...
+2025-08-12 16:38:19,337 - __main__ - INFO -  Column names formatted: ['order_id', 'product', 'quantity_ordered', 'price_each', 'order_date', 'purchase_address']
+2025-08-12 16:38:19,337 - __main__ - INFO - Starting comprehensive data cleaning...
+2025-08-12 16:38:19,697 - __main__ - INFO - Removing rows with null values in critical columns...
+2025-08-12 16:38:21,965 - __main__ - INFO -  Removed 900 rows with null values
+2025-08-12 16:38:21,965 - __main__ - INFO - Filtering rows with valid integer Order IDs...
+2025-08-12 16:38:23,181 - __main__ - INFO -  Removed 0 rows with invalid Order IDs
+2025-08-12 16:38:23,181 - __main__ - INFO - Removing rows with invalid quantities or prices...
+2025-08-12 16:38:23,241 - __main__ - INFO - Converting Order Date to timestamp format...
+2025-08-12 16:38:24,371 - __main__ - INFO -  Data cleaning complete: 185,950 rows remaining
+2025-08-12 16:38:24,371 - __main__ - INFO - Starting Window function-based deduplication...
+2025-08-12 16:38:25,021 - __main__ - INFO - Applying Window function with row_number()...
+2025-08-12 16:38:31,655 - __main__ - INFO -  Window function deduplication complete:
+2025-08-12 16:38:31,655 - __main__ - INFO -   - Initial rows: 185,950
+2025-08-12 16:38:31,655 - __main__ - INFO -   - Duplicates removed: 311
+2025-08-12 16:38:31,655 - __main__ - INFO -   - Final unique rows: 185,639
+2025-08-12 16:38:31,655 - __main__ - INFO -   - Strategy: Keep most recent record per Order ID + Product
+2025-08-12 16:38:31,655 - __main__ - INFO - Performing enhanced data quality checks...
+2025-08-12 16:38:48,630 - __main__ - INFO -  Data quality check results:
+2025-08-12 16:38:48,630 - __main__ - INFO -   - Total rows: 185,639
+2025-08-12 16:38:48,630 - __main__ - INFO -   - Distinct products: 19
+2025-08-12 16:38:48,630 - __main__ - INFO -   - Distinct orders: 178,437
+2025-08-12 16:38:48,630 - __main__ - INFO -   - Quality status:  PASSED
+2025-08-12 16:38:48,630 - __main__ - ERROR -  Windows-compatible pipeline failed with error: 'WindowsCompatibleSalesDataPipeline' object has no attribute 'write_to_csv_fallback'
+2025-08-12 16:38:49,151 - __main__ - INFO - Spark session stopped
+2025-08-12 16:38:49,200 - py4j.clientserver - INFO - Closing down clientserver connection
+2025-08-12 16:40:00,955 - __main__ - INFO -  Starting Windows-Compatible Sales Data Pipeline at 2025-08-12 16:40:00.955571
+2025-08-12 16:40:00,955 - __main__ - INFO - Initializing Windows-compatible Spark session...
+2025-08-12 16:40:07,934 - __main__ - INFO -  Windows-compatible Spark session initialized successfully
+2025-08-12 16:40:07,934 - __main__ - INFO - Reading CSV files from Sales_Data
+2025-08-12 16:40:07,934 - __main__ - INFO - Found 12 CSV files
+2025-08-12 16:40:07,934 - __main__ - INFO - Reading file 1/12: Sales_April_2019.csv
+2025-08-12 16:40:11,663 - __main__ - INFO -    Successfully read 18,383 rows from Sales_April_2019.csv
+2025-08-12 16:40:11,663 - __main__ - INFO - Reading file 2/12: Sales_August_2019.csv
+2025-08-12 16:40:11,880 - __main__ - INFO -    Successfully read 12,011 rows from Sales_August_2019.csv
+2025-08-12 16:40:11,880 - __main__ - INFO - Reading file 3/12: Sales_December_2019.csv
+2025-08-12 16:40:12,090 - __main__ - INFO -    Successfully read 25,117 rows from Sales_December_2019.csv
+2025-08-12 16:40:12,090 - __main__ - INFO - Reading file 4/12: Sales_February_2019.csv
+2025-08-12 16:40:12,272 - __main__ - INFO -    Successfully read 12,036 rows from Sales_February_2019.csv
+2025-08-12 16:40:12,272 - __main__ - INFO - Reading file 5/12: Sales_January_2019.csv
+2025-08-12 16:40:12,428 - __main__ - INFO -    Successfully read 9,723 rows from Sales_January_2019.csv
+2025-08-12 16:40:12,428 - __main__ - INFO - Reading file 6/12: Sales_July_2019.csv
+2025-08-12 16:40:12,574 - __main__ - INFO -    Successfully read 14,371 rows from Sales_July_2019.csv
+2025-08-12 16:40:12,574 - __main__ - INFO - Reading file 7/12: Sales_June_2019.csv
+2025-08-12 16:40:12,709 - __main__ - INFO -    Successfully read 13,622 rows from Sales_June_2019.csv
+2025-08-12 16:40:12,709 - __main__ - INFO - Reading file 8/12: Sales_March_2019.csv
+2025-08-12 16:40:12,842 - __main__ - INFO -    Successfully read 15,226 rows from Sales_March_2019.csv
+2025-08-12 16:40:12,842 - __main__ - INFO - Reading file 9/12: Sales_May_2019.csv
+2025-08-12 16:40:12,960 - __main__ - INFO -    Successfully read 16,635 rows from Sales_May_2019.csv
+2025-08-12 16:40:12,960 - __main__ - INFO - Reading file 10/12: Sales_November_2019.csv
+2025-08-12 16:40:13,084 - __main__ - INFO -    Successfully read 17,661 rows from Sales_November_2019.csv
+2025-08-12 16:40:13,084 - __main__ - INFO - Reading file 11/12: Sales_October_2019.csv
+2025-08-12 16:40:13,204 - __main__ - INFO -    Successfully read 20,379 rows from Sales_October_2019.csv
+2025-08-12 16:40:13,205 - __main__ - INFO - Reading file 12/12: Sales_September_2019.csv
+2025-08-12 16:40:13,311 - __main__ - INFO -    Successfully read 11,686 rows from Sales_September_2019.csv
+2025-08-12 16:40:13,312 - __main__ - INFO - Combining all CSV files...
+2025-08-12 16:40:13,764 - __main__ - INFO -  Successfully combined 186,850 rows from 12 files
+2025-08-12 16:40:13,764 - __main__ - INFO - Formatting column names...
+2025-08-12 16:40:13,814 - __main__ - INFO -  Column names formatted: ['order_id', 'product', 'quantity_ordered', 'price_each', 'order_date', 'purchase_address']
+2025-08-12 16:40:13,814 - __main__ - INFO - Starting comprehensive data cleaning...
+2025-08-12 16:40:14,128 - __main__ - INFO - Removing rows with null values in critical columns...
+2025-08-12 16:40:15,740 - __main__ - INFO -  Removed 900 rows with null values
+2025-08-12 16:40:15,740 - __main__ - INFO - Filtering rows with valid integer Order IDs...
+2025-08-12 16:40:16,484 - __main__ - INFO -  Removed 0 rows with invalid Order IDs
+2025-08-12 16:40:16,484 - __main__ - INFO - Removing rows with invalid quantities or prices...
+2025-08-12 16:40:16,526 - __main__ - INFO - Converting Order Date to timestamp format...
+2025-08-12 16:40:17,491 - __main__ - INFO -  Data cleaning complete: 185,950 rows remaining
+2025-08-12 16:40:17,491 - __main__ - INFO - Starting Window function-based deduplication...
+2025-08-12 16:40:18,028 - __main__ - INFO - Applying Window function with row_number()...
+2025-08-12 16:40:21,710 - __main__ - INFO -  Window function deduplication complete:
+2025-08-12 16:40:21,710 - __main__ - INFO -   - Initial rows: 185,950
+2025-08-12 16:40:21,710 - __main__ - INFO -   - Duplicates removed: 311
+2025-08-12 16:40:21,710 - __main__ - INFO -   - Final unique rows: 185,639
+2025-08-12 16:40:21,710 - __main__ - INFO -   - Strategy: Keep most recent record per Order ID + Product
+2025-08-12 16:40:21,710 - __main__ - INFO - Performing enhanced data quality checks...
+2025-08-12 16:40:39,328 - __main__ - INFO -  Data quality check results:
+2025-08-12 16:40:39,328 - __main__ - INFO -   - Total rows: 185,639
+2025-08-12 16:40:39,328 - __main__ - INFO -   - Distinct products: 19
+2025-08-12 16:40:39,328 - __main__ - INFO -   - Distinct orders: 178,437
+2025-08-12 16:40:39,328 - __main__ - INFO -   - Quality status:  PASSED
+2025-08-12 16:40:39,328 - __main__ - INFO - Writing final dataset to a single Parquet file...
+2025-08-12 16:40:43,161 - __main__ - ERROR -  Windows-compatible pipeline failed with error: An error occurred while calling o419.parquet.
+: java.util.concurrent.ExecutionException: Boxed Exception
+	at scala.concurrent.impl.Promise$.scala$concurrent$impl$Promise$$resolve(Promise.scala:99)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:278)
+	at scala.concurrent.Promise.complete(Promise.scala:57)
+	at scala.concurrent.Promise.complete$(Promise.scala:56)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:104)
+	at scala.concurrent.Promise.failure(Promise.scala:109)
+	at scala.concurrent.Promise.failure$(Promise.scala:109)
+	at scala.concurrent.impl.Promise$DefaultPromise.failure(Promise.scala:104)
+	at org.apache.spark.sql.execution.adaptive.ResultQueryStageExec.$anonfun$doMaterialize$2(QueryStageExec.scala:333)
+	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:863)
+	at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:841)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.spark.util.Utils$.getTryWithCallerStacktrace(Utils.scala:1439)
+	at org.apache.spark.util.LazyTry.get(LazyTry.scala:58)
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted(QueryExecution.scala:131)
+	at org.apache.spark.sql.execution.QueryExecution.assertCommandExecuted(QueryExecution.scala:192)
+	at org.apache.spark.sql.classic.DataFrameWriter.runCommand(DataFrameWriter.scala:622)
+	at org.apache.spark.sql.classic.DataFrameWriter.saveToV1Source(DataFrameWriter.scala:273)
+	at org.apache.spark.sql.classic.DataFrameWriter.saveInternal(DataFrameWriter.scala:241)
+	at org.apache.spark.sql.classic.DataFrameWriter.save(DataFrameWriter.scala:118)
+	at org.apache.spark.sql.DataFrameWriter.parquet(DataFrameWriter.scala:369)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:184)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:108)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+	Suppressed: org.apache.spark.util.Utils$OriginalTryStackTraceException: Full stacktrace of original doTryWithCallerStacktrace caller
+		at scala.concurrent.impl.Promise$.scala$concurrent$impl$Promise$$resolve(Promise.scala:99)
+		at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:278)
+		at scala.concurrent.Promise.complete(Promise.scala:57)
+		at scala.concurrent.Promise.complete$(Promise.scala:56)
+		at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:104)
+		at scala.concurrent.Promise.failure(Promise.scala:109)
+		at scala.concurrent.Promise.failure$(Promise.scala:109)
+		at scala.concurrent.impl.Promise$DefaultPromise.failure(Promise.scala:104)
+		at org.apache.spark.sql.execution.adaptive.ResultQueryStageExec.$anonfun$doMaterialize$2(QueryStageExec.scala:333)
+		at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:863)
+		at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:841)
+		at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+		at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		... 1 more
+Caused by: java.lang.UnsatisfiedLinkError: 'boolean org.apache.hadoop.io.nativeio.NativeIO$Windows.access0(java.lang.String, int)'
+	at org.apache.hadoop.io.nativeio.NativeIO$Windows.access0(Native Method)
+	at org.apache.hadoop.io.nativeio.NativeIO$Windows.access(NativeIO.java:817)
+	at org.apache.hadoop.fs.FileUtil.canRead(FileUtil.java:1415)
+	at org.apache.hadoop.fs.FileUtil.list(FileUtil.java:1620)
+	at org.apache.hadoop.fs.RawLocalFileSystem.listStatus(RawLocalFileSystem.java:739)
+	at org.apache.hadoop.fs.FileSystem.listStatus(FileSystem.java:2078)
+	at org.apache.hadoop.fs.FileSystem.listStatus(FileSystem.java:2122)
+	at org.apache.hadoop.fs.ChecksumFileSystem.listStatus(ChecksumFileSystem.java:961)
+	at org.apache.hadoop.fs.FileSystem.listStatus(FileSystem.java:2078)
+	at org.apache.hadoop.fs.FileSystem.listStatus(FileSystem.java:2122)
+	at org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.getAllCommittedTaskPaths(FileOutputCommitter.java:334)
+	at org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitJobInternal(FileOutputCommitter.java:404)
+	at org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitJob(FileOutputCommitter.java:377)
+	at org.apache.parquet.hadoop.ParquetOutputCommitter.commitJob(ParquetOutputCommitter.java:46)
+	at org.apache.spark.internal.io.HadoopMapReduceCommitProtocol.commitJob(HadoopMapReduceCommitProtocol.scala:194)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.$anonfun$writeAndCommit$3(FileFormatWriter.scala:275)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at org.apache.spark.util.Utils$.timeTakenMs(Utils.scala:481)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.writeAndCommit(FileFormatWriter.scala:275)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.executeWrite(FileFormatWriter.scala:306)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.write(FileFormatWriter.scala:189)
+	at org.apache.spark.sql.execution.datasources.InsertIntoHadoopFsRelationCommand.run(InsertIntoHadoopFsRelationCommand.scala:195)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult$lzycompute(commands.scala:117)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult(commands.scala:115)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.executeCollect(commands.scala:129)
+	at org.apache.spark.sql.execution.adaptive.AdaptiveSparkPlanExec.$anonfun$executeCollect$1(AdaptiveSparkPlanExec.scala:402)
+	at org.apache.spark.sql.execution.adaptive.ResultQueryStageExec.$anonfun$doMaterialize$1(QueryStageExec.scala:325)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withThreadLocalCaptured$4(SQLExecution.scala:318)
+	at org.apache.spark.sql.execution.SQLExecution$.withSessionTagsApplied(SQLExecution.scala:268)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withThreadLocalCaptured$3(SQLExecution.scala:316)
+	at org.apache.spark.JobArtifactSet$.withActiveJobArtifactState(JobArtifactSet.scala:94)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withThreadLocalCaptured$2(SQLExecution.scala:312)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	... 1 more
+
+2025-08-12 16:40:43,599 - __main__ - INFO - Spark session stopped
+2025-08-12 16:40:43,624 - py4j.clientserver - INFO - Closing down clientserver connection
+2025-08-12 17:07:56,701 - __main__ - INFO -  Starting Windows-Compatible Sales Data Pipeline at 2025-08-12 17:07:56.701667
+2025-08-12 17:07:56,701 - __main__ - INFO - Initializing Windows-compatible Spark session...
+2025-08-12 17:08:05,060 - __main__ - INFO -  Windows-compatible Spark session initialized successfully
+2025-08-12 17:08:05,060 - __main__ - INFO - Reading CSV files from Sales_Data
+2025-08-12 17:08:05,061 - __main__ - INFO - Found 12 CSV files
+2025-08-12 17:08:05,062 - __main__ - INFO - Reading file 1/12: Sales_April_2019.csv
+2025-08-12 17:08:09,012 - __main__ - INFO -    Successfully read 18,383 rows from Sales_April_2019.csv
+2025-08-12 17:08:09,012 - __main__ - INFO - Reading file 2/12: Sales_August_2019.csv
+2025-08-12 17:08:09,204 - __main__ - INFO -    Successfully read 12,011 rows from Sales_August_2019.csv
+2025-08-12 17:08:09,204 - __main__ - INFO - Reading file 3/12: Sales_December_2019.csv
+2025-08-12 17:08:09,352 - __main__ - INFO -    Successfully read 25,117 rows from Sales_December_2019.csv
+2025-08-12 17:08:09,352 - __main__ - INFO - Reading file 4/12: Sales_February_2019.csv
+2025-08-12 17:08:09,498 - __main__ - INFO -    Successfully read 12,036 rows from Sales_February_2019.csv
+2025-08-12 17:08:09,498 - __main__ - INFO - Reading file 5/12: Sales_January_2019.csv
+2025-08-12 17:08:09,647 - __main__ - INFO -    Successfully read 9,723 rows from Sales_January_2019.csv
+2025-08-12 17:08:09,647 - __main__ - INFO - Reading file 6/12: Sales_July_2019.csv
+2025-08-12 17:08:09,775 - __main__ - INFO -    Successfully read 14,371 rows from Sales_July_2019.csv
+2025-08-12 17:08:09,775 - __main__ - INFO - Reading file 7/12: Sales_June_2019.csv
+2025-08-12 17:08:09,948 - __main__ - INFO -    Successfully read 13,622 rows from Sales_June_2019.csv
+2025-08-12 17:08:09,950 - __main__ - INFO - Reading file 8/12: Sales_March_2019.csv
+2025-08-12 17:08:10,089 - __main__ - INFO -    Successfully read 15,226 rows from Sales_March_2019.csv
+2025-08-12 17:08:10,089 - __main__ - INFO - Reading file 9/12: Sales_May_2019.csv
+2025-08-12 17:08:10,239 - __main__ - INFO -    Successfully read 16,635 rows from Sales_May_2019.csv
+2025-08-12 17:08:10,240 - __main__ - INFO - Reading file 10/12: Sales_November_2019.csv
+2025-08-12 17:08:10,378 - __main__ - INFO -    Successfully read 17,661 rows from Sales_November_2019.csv
+2025-08-12 17:08:10,379 - __main__ - INFO - Reading file 11/12: Sales_October_2019.csv
+2025-08-12 17:08:10,513 - __main__ - INFO -    Successfully read 20,379 rows from Sales_October_2019.csv
+2025-08-12 17:08:10,513 - __main__ - INFO - Reading file 12/12: Sales_September_2019.csv
+2025-08-12 17:08:10,669 - __main__ - INFO -    Successfully read 11,686 rows from Sales_September_2019.csv
+2025-08-12 17:08:10,670 - __main__ - INFO - Combining all CSV files...
+2025-08-12 17:08:11,331 - __main__ - INFO -  Successfully combined 186,850 rows from 12 files
+2025-08-12 17:08:11,331 - __main__ - INFO - Formatting column names...
+2025-08-12 17:08:11,395 - __main__ - INFO -  Column names formatted: ['order_id', 'product', 'quantity_ordered', 'price_each', 'order_date', 'purchase_address']
+2025-08-12 17:08:11,395 - __main__ - INFO - Starting comprehensive data cleaning...
+2025-08-12 17:08:11,776 - __main__ - INFO - Removing rows with null values in critical columns...
+2025-08-12 17:08:13,923 - __main__ - INFO -  Removed 900 rows with null values
+2025-08-12 17:08:13,923 - __main__ - INFO - Filtering rows with valid integer Order IDs...
+2025-08-12 17:08:14,639 - __main__ - INFO -  Removed 0 rows with invalid Order IDs
+2025-08-12 17:08:14,639 - __main__ - INFO - Removing rows with invalid quantities or prices...
+2025-08-12 17:08:14,675 - __main__ - INFO - Converting Order Date to timestamp format...
+2025-08-12 17:08:15,824 - __main__ - INFO -  Data cleaning complete: 185,950 rows remaining
+2025-08-12 17:08:15,824 - __main__ - INFO - Starting Window function-based deduplication...
+2025-08-12 17:08:16,400 - __main__ - INFO - Applying Window function with row_number()...
+2025-08-12 17:08:21,536 - __main__ - INFO -  Window function deduplication complete:
+2025-08-12 17:08:21,536 - __main__ - INFO -   - Initial rows: 185,950
+2025-08-12 17:08:21,536 - __main__ - INFO -   - Duplicates removed: 311
+2025-08-12 17:08:21,536 - __main__ - INFO -   - Final unique rows: 185,639
+2025-08-12 17:08:21,538 - __main__ - INFO -   - Strategy: Keep most recent record per Order ID + Product
+2025-08-12 17:08:21,546 - __main__ - INFO - Performing enhanced data quality checks...
+2025-08-12 17:08:38,932 - __main__ - INFO -  Data quality check results:
+2025-08-12 17:08:38,932 - __main__ - INFO -   - Total rows: 185,639
+2025-08-12 17:08:38,932 - __main__ - INFO -   - Distinct products: 19
+2025-08-12 17:08:38,932 - __main__ - INFO -   - Distinct orders: 178,437
+2025-08-12 17:08:38,932 - __main__ - INFO -   - Quality status:  PASSED
+2025-08-12 17:08:38,933 - __main__ - INFO - Writing final dataset to a single Parquet file...
+2025-08-12 17:08:42,871 - __main__ - ERROR -  Windows-compatible pipeline failed with error: An error occurred while calling o419.parquet.
+: java.util.concurrent.ExecutionException: Boxed Exception
+	at scala.concurrent.impl.Promise$.scala$concurrent$impl$Promise$$resolve(Promise.scala:99)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:278)
+	at scala.concurrent.Promise.complete(Promise.scala:57)
+	at scala.concurrent.Promise.complete$(Promise.scala:56)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:104)
+	at scala.concurrent.Promise.failure(Promise.scala:109)
+	at scala.concurrent.Promise.failure$(Promise.scala:109)
+	at scala.concurrent.impl.Promise$DefaultPromise.failure(Promise.scala:104)
+	at org.apache.spark.sql.execution.adaptive.ResultQueryStageExec.$anonfun$doMaterialize$2(QueryStageExec.scala:333)
+	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:863)
+	at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:841)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.spark.util.Utils$.getTryWithCallerStacktrace(Utils.scala:1439)
+	at org.apache.spark.util.LazyTry.get(LazyTry.scala:58)
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted(QueryExecution.scala:131)
+	at org.apache.spark.sql.execution.QueryExecution.assertCommandExecuted(QueryExecution.scala:192)
+	at org.apache.spark.sql.classic.DataFrameWriter.runCommand(DataFrameWriter.scala:622)
+	at org.apache.spark.sql.classic.DataFrameWriter.saveToV1Source(DataFrameWriter.scala:273)
+	at org.apache.spark.sql.classic.DataFrameWriter.saveInternal(DataFrameWriter.scala:241)
+	at org.apache.spark.sql.classic.DataFrameWriter.save(DataFrameWriter.scala:118)
+	at org.apache.spark.sql.DataFrameWriter.parquet(DataFrameWriter.scala:369)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:184)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:108)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+	Suppressed: org.apache.spark.util.Utils$OriginalTryStackTraceException: Full stacktrace of original doTryWithCallerStacktrace caller
+		at scala.concurrent.impl.Promise$.scala$concurrent$impl$Promise$$resolve(Promise.scala:99)
+		at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:278)
+		at scala.concurrent.Promise.complete(Promise.scala:57)
+		at scala.concurrent.Promise.complete$(Promise.scala:56)
+		at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:104)
+		at scala.concurrent.Promise.failure(Promise.scala:109)
+		at scala.concurrent.Promise.failure$(Promise.scala:109)
+		at scala.concurrent.impl.Promise$DefaultPromise.failure(Promise.scala:104)
+		at org.apache.spark.sql.execution.adaptive.ResultQueryStageExec.$anonfun$doMaterialize$2(QueryStageExec.scala:333)
+		at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:863)
+		at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:841)
+		at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+		at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		... 1 more
+Caused by: java.lang.UnsatisfiedLinkError: 'boolean org.apache.hadoop.io.nativeio.NativeIO$Windows.access0(java.lang.String, int)'
+	at org.apache.hadoop.io.nativeio.NativeIO$Windows.access0(Native Method)
+	at org.apache.hadoop.io.nativeio.NativeIO$Windows.access(NativeIO.java:817)
+	at org.apache.hadoop.fs.FileUtil.canRead(FileUtil.java:1415)
+	at org.apache.hadoop.fs.FileUtil.list(FileUtil.java:1620)
+	at org.apache.hadoop.fs.RawLocalFileSystem.listStatus(RawLocalFileSystem.java:739)
+	at org.apache.hadoop.fs.FileSystem.listStatus(FileSystem.java:2078)
+	at org.apache.hadoop.fs.FileSystem.listStatus(FileSystem.java:2122)
+	at org.apache.hadoop.fs.ChecksumFileSystem.listStatus(ChecksumFileSystem.java:961)
+	at org.apache.hadoop.fs.FileSystem.listStatus(FileSystem.java:2078)
+	at org.apache.hadoop.fs.FileSystem.listStatus(FileSystem.java:2122)
+	at org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.getAllCommittedTaskPaths(FileOutputCommitter.java:334)
+	at org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitJobInternal(FileOutputCommitter.java:404)
+	at org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitJob(FileOutputCommitter.java:377)
+	at org.apache.parquet.hadoop.ParquetOutputCommitter.commitJob(ParquetOutputCommitter.java:46)
+	at org.apache.spark.internal.io.HadoopMapReduceCommitProtocol.commitJob(HadoopMapReduceCommitProtocol.scala:194)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.$anonfun$writeAndCommit$3(FileFormatWriter.scala:275)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at org.apache.spark.util.Utils$.timeTakenMs(Utils.scala:481)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.writeAndCommit(FileFormatWriter.scala:275)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.executeWrite(FileFormatWriter.scala:306)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.write(FileFormatWriter.scala:189)
+	at org.apache.spark.sql.execution.datasources.InsertIntoHadoopFsRelationCommand.run(InsertIntoHadoopFsRelationCommand.scala:195)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult$lzycompute(commands.scala:117)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult(commands.scala:115)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.executeCollect(commands.scala:129)
+	at org.apache.spark.sql.execution.adaptive.AdaptiveSparkPlanExec.$anonfun$executeCollect$1(AdaptiveSparkPlanExec.scala:402)
+	at org.apache.spark.sql.execution.adaptive.ResultQueryStageExec.$anonfun$doMaterialize$1(QueryStageExec.scala:325)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withThreadLocalCaptured$4(SQLExecution.scala:318)
+	at org.apache.spark.sql.execution.SQLExecution$.withSessionTagsApplied(SQLExecution.scala:268)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withThreadLocalCaptured$3(SQLExecution.scala:316)
+	at org.apache.spark.JobArtifactSet$.withActiveJobArtifactState(JobArtifactSet.scala:94)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withThreadLocalCaptured$2(SQLExecution.scala:312)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	... 1 more
+
+2025-08-12 17:08:43,112 - __main__ - INFO - Spark session stopped
+2025-08-12 17:08:43,137 - py4j.clientserver - INFO - Closing down clientserver connection
+2025-08-12 17:10:36,670 - __main__ - INFO -  Starting Windows-Compatible Sales Data Pipeline at 2025-08-12 17:10:36.670712
+2025-08-12 17:10:36,670 - __main__ - INFO - Initializing Windows-compatible Spark session...
+2025-08-12 17:10:43,888 - __main__ - INFO -  Windows-compatible Spark session initialized successfully
+2025-08-12 17:10:43,888 - __main__ - INFO - Reading CSV files from Sales_Data
+2025-08-12 17:10:43,888 - __main__ - INFO - Found 12 CSV files
+2025-08-12 17:10:43,888 - __main__ - INFO - Reading file 1/12: Sales_April_2019.csv
+2025-08-12 17:10:47,454 - __main__ - INFO -    Successfully read 18,383 rows from Sales_April_2019.csv
+2025-08-12 17:10:47,454 - __main__ - INFO - Reading file 2/12: Sales_August_2019.csv
+2025-08-12 17:10:47,660 - __main__ - INFO -    Successfully read 12,011 rows from Sales_August_2019.csv
+2025-08-12 17:10:47,660 - __main__ - INFO - Reading file 3/12: Sales_December_2019.csv
+2025-08-12 17:10:47,806 - __main__ - INFO -    Successfully read 25,117 rows from Sales_December_2019.csv
+2025-08-12 17:10:47,806 - __main__ - INFO - Reading file 4/12: Sales_February_2019.csv
+2025-08-12 17:10:47,932 - __main__ - INFO -    Successfully read 12,036 rows from Sales_February_2019.csv
+2025-08-12 17:10:47,933 - __main__ - INFO - Reading file 5/12: Sales_January_2019.csv
+2025-08-12 17:10:48,062 - __main__ - INFO -    Successfully read 9,723 rows from Sales_January_2019.csv
+2025-08-12 17:10:48,064 - __main__ - INFO - Reading file 6/12: Sales_July_2019.csv
+2025-08-12 17:10:48,199 - __main__ - INFO -    Successfully read 14,371 rows from Sales_July_2019.csv
+2025-08-12 17:10:48,199 - __main__ - INFO - Reading file 7/12: Sales_June_2019.csv
+2025-08-12 17:10:48,315 - __main__ - INFO -    Successfully read 13,622 rows from Sales_June_2019.csv
+2025-08-12 17:10:48,315 - __main__ - INFO - Reading file 8/12: Sales_March_2019.csv
+2025-08-12 17:10:48,466 - __main__ - INFO -    Successfully read 15,226 rows from Sales_March_2019.csv
+2025-08-12 17:10:48,466 - __main__ - INFO - Reading file 9/12: Sales_May_2019.csv
+2025-08-12 17:10:48,565 - __main__ - INFO -    Successfully read 16,635 rows from Sales_May_2019.csv
+2025-08-12 17:10:48,565 - __main__ - INFO - Reading file 10/12: Sales_November_2019.csv
+2025-08-12 17:10:48,681 - __main__ - INFO -    Successfully read 17,661 rows from Sales_November_2019.csv
+2025-08-12 17:10:48,682 - __main__ - INFO - Reading file 11/12: Sales_October_2019.csv
+2025-08-12 17:10:48,792 - __main__ - INFO -    Successfully read 20,379 rows from Sales_October_2019.csv
+2025-08-12 17:10:48,792 - __main__ - INFO - Reading file 12/12: Sales_September_2019.csv
+2025-08-12 17:10:48,915 - __main__ - INFO -    Successfully read 11,686 rows from Sales_September_2019.csv
+2025-08-12 17:10:48,915 - __main__ - INFO - Combining all CSV files...
+2025-08-12 17:10:49,458 - __main__ - INFO -  Successfully combined 186,850 rows from 12 files
+2025-08-12 17:10:49,458 - __main__ - INFO - Formatting column names...
+2025-08-12 17:10:49,501 - __main__ - INFO -  Column names formatted: ['order_id', 'product', 'quantity_ordered', 'price_each', 'order_date', 'purchase_address']
+2025-08-12 17:10:49,501 - __main__ - INFO - Starting comprehensive data cleaning...
+2025-08-12 17:10:49,805 - __main__ - INFO - Removing rows with null values in critical columns...
+2025-08-12 17:10:51,539 - __main__ - INFO -  Removed 900 rows with null values
+2025-08-12 17:10:51,539 - __main__ - INFO - Filtering rows with valid integer Order IDs...
+2025-08-12 17:10:52,334 - __main__ - INFO -  Removed 0 rows with invalid Order IDs
+2025-08-12 17:10:52,334 - __main__ - INFO - Removing rows with invalid quantities or prices...
+2025-08-12 17:10:52,375 - __main__ - INFO - Converting Order Date to timestamp format...
+2025-08-12 17:10:53,472 - __main__ - INFO -  Data cleaning complete: 185,950 rows remaining
+2025-08-12 17:10:53,472 - __main__ - INFO - Starting Window function-based deduplication...
+2025-08-12 17:10:54,117 - __main__ - INFO - Applying Window function with row_number()...
+2025-08-12 17:10:57,708 - __main__ - INFO -  Window function deduplication complete:
+2025-08-12 17:10:57,708 - __main__ - INFO -   - Initial rows: 185,950
+2025-08-12 17:10:57,708 - __main__ - INFO -   - Duplicates removed: 311
+2025-08-12 17:10:57,708 - __main__ - INFO -   - Final unique rows: 185,639
+2025-08-12 17:10:57,708 - __main__ - INFO -   - Strategy: Keep most recent record per Order ID + Product
+2025-08-12 17:10:57,710 - __main__ - INFO - Performing enhanced data quality checks...
+2025-08-12 17:11:14,835 - __main__ - INFO -  Data quality check results:
+2025-08-12 17:11:14,835 - __main__ - INFO -   - Total rows: 185,639
+2025-08-12 17:11:14,835 - __main__ - INFO -   - Distinct products: 19
+2025-08-12 17:11:14,835 - __main__ - INFO -   - Distinct orders: 178,437
+2025-08-12 17:11:14,835 - __main__ - INFO -   - Quality status:  PASSED
+2025-08-12 17:11:14,835 - __main__ - INFO - Writing final dataset to a single Parquet file...
+2025-08-12 17:11:19,056 - __main__ - ERROR -  Windows-compatible pipeline failed with error: An error occurred while calling o419.parquet.
+: java.util.concurrent.ExecutionException: Boxed Exception
+	at scala.concurrent.impl.Promise$.scala$concurrent$impl$Promise$$resolve(Promise.scala:99)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:278)
+	at scala.concurrent.Promise.complete(Promise.scala:57)
+	at scala.concurrent.Promise.complete$(Promise.scala:56)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:104)
+	at scala.concurrent.Promise.failure(Promise.scala:109)
+	at scala.concurrent.Promise.failure$(Promise.scala:109)
+	at scala.concurrent.impl.Promise$DefaultPromise.failure(Promise.scala:104)
+	at org.apache.spark.sql.execution.adaptive.ResultQueryStageExec.$anonfun$doMaterialize$2(QueryStageExec.scala:333)
+	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:863)
+	at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:841)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.spark.util.Utils$.getTryWithCallerStacktrace(Utils.scala:1439)
+	at org.apache.spark.util.LazyTry.get(LazyTry.scala:58)
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted(QueryExecution.scala:131)
+	at org.apache.spark.sql.execution.QueryExecution.assertCommandExecuted(QueryExecution.scala:192)
+	at org.apache.spark.sql.classic.DataFrameWriter.runCommand(DataFrameWriter.scala:622)
+	at org.apache.spark.sql.classic.DataFrameWriter.saveToV1Source(DataFrameWriter.scala:273)
+	at org.apache.spark.sql.classic.DataFrameWriter.saveInternal(DataFrameWriter.scala:241)
+	at org.apache.spark.sql.classic.DataFrameWriter.save(DataFrameWriter.scala:118)
+	at org.apache.spark.sql.DataFrameWriter.parquet(DataFrameWriter.scala:369)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:184)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:108)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+	Suppressed: org.apache.spark.util.Utils$OriginalTryStackTraceException: Full stacktrace of original doTryWithCallerStacktrace caller
+		at scala.concurrent.impl.Promise$.scala$concurrent$impl$Promise$$resolve(Promise.scala:99)
+		at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:278)
+		at scala.concurrent.Promise.complete(Promise.scala:57)
+		at scala.concurrent.Promise.complete$(Promise.scala:56)
+		at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:104)
+		at scala.concurrent.Promise.failure(Promise.scala:109)
+		at scala.concurrent.Promise.failure$(Promise.scala:109)
+		at scala.concurrent.impl.Promise$DefaultPromise.failure(Promise.scala:104)
+		at org.apache.spark.sql.execution.adaptive.ResultQueryStageExec.$anonfun$doMaterialize$2(QueryStageExec.scala:333)
+		at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:863)
+		at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:841)
+		at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+		at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		... 1 more
+Caused by: java.lang.UnsatisfiedLinkError: 'boolean org.apache.hadoop.io.nativeio.NativeIO$Windows.access0(java.lang.String, int)'
+	at org.apache.hadoop.io.nativeio.NativeIO$Windows.access0(Native Method)
+	at org.apache.hadoop.io.nativeio.NativeIO$Windows.access(NativeIO.java:817)
+	at org.apache.hadoop.fs.FileUtil.canRead(FileUtil.java:1415)
+	at org.apache.hadoop.fs.FileUtil.list(FileUtil.java:1620)
+	at org.apache.hadoop.fs.RawLocalFileSystem.listStatus(RawLocalFileSystem.java:739)
+	at org.apache.hadoop.fs.FileSystem.listStatus(FileSystem.java:2078)
+	at org.apache.hadoop.fs.FileSystem.listStatus(FileSystem.java:2122)
+	at org.apache.hadoop.fs.ChecksumFileSystem.listStatus(ChecksumFileSystem.java:961)
+	at org.apache.hadoop.fs.FileSystem.listStatus(FileSystem.java:2078)
+	at org.apache.hadoop.fs.FileSystem.listStatus(FileSystem.java:2122)
+	at org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.getAllCommittedTaskPaths(FileOutputCommitter.java:334)
+	at org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitJobInternal(FileOutputCommitter.java:404)
+	at org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitJob(FileOutputCommitter.java:377)
+	at org.apache.parquet.hadoop.ParquetOutputCommitter.commitJob(ParquetOutputCommitter.java:46)
+	at org.apache.spark.internal.io.HadoopMapReduceCommitProtocol.commitJob(HadoopMapReduceCommitProtocol.scala:194)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.$anonfun$writeAndCommit$3(FileFormatWriter.scala:275)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at org.apache.spark.util.Utils$.timeTakenMs(Utils.scala:481)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.writeAndCommit(FileFormatWriter.scala:275)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.executeWrite(FileFormatWriter.scala:306)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.write(FileFormatWriter.scala:189)
+	at org.apache.spark.sql.execution.datasources.InsertIntoHadoopFsRelationCommand.run(InsertIntoHadoopFsRelationCommand.scala:195)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult$lzycompute(commands.scala:117)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult(commands.scala:115)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.executeCollect(commands.scala:129)
+	at org.apache.spark.sql.execution.adaptive.AdaptiveSparkPlanExec.$anonfun$executeCollect$1(AdaptiveSparkPlanExec.scala:402)
+	at org.apache.spark.sql.execution.adaptive.ResultQueryStageExec.$anonfun$doMaterialize$1(QueryStageExec.scala:325)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withThreadLocalCaptured$4(SQLExecution.scala:318)
+	at org.apache.spark.sql.execution.SQLExecution$.withSessionTagsApplied(SQLExecution.scala:268)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withThreadLocalCaptured$3(SQLExecution.scala:316)
+	at org.apache.spark.JobArtifactSet$.withActiveJobArtifactState(JobArtifactSet.scala:94)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withThreadLocalCaptured$2(SQLExecution.scala:312)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	... 1 more
+
+2025-08-12 17:11:19,632 - __main__ - INFO - Spark session stopped
+2025-08-12 17:11:19,652 - py4j.clientserver - INFO - Closing down clientserver connection
+2025-08-12 17:13:36,639 - __main__ - INFO -  Starting Windows-Compatible Sales Data Pipeline at 2025-08-12 17:13:36.639007
+2025-08-12 17:13:36,639 - __main__ - INFO - Initializing Windows-compatible Spark session...
+2025-08-12 17:13:44,126 - __main__ - INFO -  Windows-compatible Spark session initialized successfully
+2025-08-12 17:13:44,126 - __main__ - INFO - Reading CSV files from Sales_Data
+2025-08-12 17:13:44,141 - __main__ - INFO - Found 12 CSV files
+2025-08-12 17:13:44,141 - __main__ - INFO - Reading file 1/12: Sales_April_2019.csv
+2025-08-12 17:13:49,032 - __main__ - INFO -    Successfully read 18,383 rows from Sales_April_2019.csv
+2025-08-12 17:13:49,032 - __main__ - INFO - Reading file 2/12: Sales_August_2019.csv
+2025-08-12 17:13:49,272 - __main__ - INFO -    Successfully read 12,011 rows from Sales_August_2019.csv
+2025-08-12 17:13:49,272 - __main__ - INFO - Reading file 3/12: Sales_December_2019.csv
+2025-08-12 17:13:49,472 - __main__ - INFO -    Successfully read 25,117 rows from Sales_December_2019.csv
+2025-08-12 17:13:49,472 - __main__ - INFO - Reading file 4/12: Sales_February_2019.csv
+2025-08-12 17:13:49,639 - __main__ - INFO -    Successfully read 12,036 rows from Sales_February_2019.csv
+2025-08-12 17:13:49,639 - __main__ - INFO - Reading file 5/12: Sales_January_2019.csv
+2025-08-12 17:13:49,807 - __main__ - INFO -    Successfully read 9,723 rows from Sales_January_2019.csv
+2025-08-12 17:13:49,807 - __main__ - INFO - Reading file 6/12: Sales_July_2019.csv
+2025-08-12 17:13:49,955 - __main__ - INFO -    Successfully read 14,371 rows from Sales_July_2019.csv
+2025-08-12 17:13:49,955 - __main__ - INFO - Reading file 7/12: Sales_June_2019.csv
+2025-08-12 17:13:50,122 - __main__ - INFO -    Successfully read 13,622 rows from Sales_June_2019.csv
+2025-08-12 17:13:50,123 - __main__ - INFO - Reading file 8/12: Sales_March_2019.csv
+2025-08-12 17:13:50,274 - __main__ - INFO -    Successfully read 15,226 rows from Sales_March_2019.csv
+2025-08-12 17:13:50,274 - __main__ - INFO - Reading file 9/12: Sales_May_2019.csv
+2025-08-12 17:13:50,446 - __main__ - INFO -    Successfully read 16,635 rows from Sales_May_2019.csv
+2025-08-12 17:13:50,446 - __main__ - INFO - Reading file 10/12: Sales_November_2019.csv
+2025-08-12 17:13:50,599 - __main__ - INFO -    Successfully read 17,661 rows from Sales_November_2019.csv
+2025-08-12 17:13:50,599 - __main__ - INFO - Reading file 11/12: Sales_October_2019.csv
+2025-08-12 17:13:50,764 - __main__ - INFO -    Successfully read 20,379 rows from Sales_October_2019.csv
+2025-08-12 17:13:50,764 - __main__ - INFO - Reading file 12/12: Sales_September_2019.csv
+2025-08-12 17:13:50,932 - __main__ - INFO -    Successfully read 11,686 rows from Sales_September_2019.csv
+2025-08-12 17:13:50,933 - __main__ - INFO - Combining all CSV files...
+2025-08-12 17:13:51,587 - __main__ - INFO -  Successfully combined 186,850 rows from 12 files
+2025-08-12 17:13:51,587 - __main__ - INFO - Formatting column names...
+2025-08-12 17:13:51,648 - __main__ - INFO -  Column names formatted: ['order_id', 'product', 'quantity_ordered', 'price_each', 'order_date', 'purchase_address']
+2025-08-12 17:13:51,648 - __main__ - INFO - Starting comprehensive data cleaning...
+2025-08-12 17:13:52,095 - __main__ - INFO - Removing rows with null values in critical columns...
+2025-08-12 17:13:54,266 - __main__ - INFO -  Removed 900 rows with null values
+2025-08-12 17:13:54,266 - __main__ - INFO - Filtering rows with valid integer Order IDs...
+2025-08-12 17:13:55,196 - __main__ - INFO -  Removed 0 rows with invalid Order IDs
+2025-08-12 17:13:55,196 - __main__ - INFO - Removing rows with invalid quantities or prices...
+2025-08-12 17:13:55,253 - __main__ - INFO - Converting Order Date to timestamp format...
+2025-08-12 17:13:56,577 - __main__ - INFO -  Data cleaning complete: 185,950 rows remaining
+2025-08-12 17:13:56,577 - __main__ - INFO - Starting Window function-based deduplication...
+2025-08-12 17:13:57,332 - __main__ - INFO - Applying Window function with row_number()...
+2025-08-12 17:14:01,789 - __main__ - INFO -  Window function deduplication complete:
+2025-08-12 17:14:01,789 - __main__ - INFO -   - Initial rows: 185,950
+2025-08-12 17:14:01,790 - __main__ - INFO -   - Duplicates removed: 311
+2025-08-12 17:14:01,790 - __main__ - INFO -   - Final unique rows: 185,639
+2025-08-12 17:14:01,791 - __main__ - INFO -   - Strategy: Keep most recent record per Order ID + Product
+2025-08-12 17:14:01,792 - __main__ - INFO - Performing enhanced data quality checks...
+2025-08-12 17:14:19,685 - __main__ - INFO -  Data quality check results:
+2025-08-12 17:14:19,685 - __main__ - INFO -   - Total rows: 185,639
+2025-08-12 17:14:19,685 - __main__ - INFO -   - Distinct products: 19
+2025-08-12 17:14:19,685 - __main__ - INFO -   - Distinct orders: 178,437
+2025-08-12 17:14:19,685 - __main__ - INFO -   - Quality status:  PASSED
+2025-08-12 17:14:19,685 - __main__ - INFO - Writing final dataset to a single Parquet file...
+2025-08-12 17:14:24,089 - __main__ - ERROR -  Windows-compatible pipeline failed with error: An error occurred while calling o419.parquet.
+: java.util.concurrent.ExecutionException: Boxed Exception
+	at scala.concurrent.impl.Promise$.scala$concurrent$impl$Promise$$resolve(Promise.scala:99)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:278)
+	at scala.concurrent.Promise.complete(Promise.scala:57)
+	at scala.concurrent.Promise.complete$(Promise.scala:56)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:104)
+	at scala.concurrent.Promise.failure(Promise.scala:109)
+	at scala.concurrent.Promise.failure$(Promise.scala:109)
+	at scala.concurrent.impl.Promise$DefaultPromise.failure(Promise.scala:104)
+	at org.apache.spark.sql.execution.adaptive.ResultQueryStageExec.$anonfun$doMaterialize$2(QueryStageExec.scala:333)
+	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:863)
+	at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:841)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.spark.util.Utils$.getTryWithCallerStacktrace(Utils.scala:1439)
+	at org.apache.spark.util.LazyTry.get(LazyTry.scala:58)
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted(QueryExecution.scala:131)
+	at org.apache.spark.sql.execution.QueryExecution.assertCommandExecuted(QueryExecution.scala:192)
+	at org.apache.spark.sql.classic.DataFrameWriter.runCommand(DataFrameWriter.scala:622)
+	at org.apache.spark.sql.classic.DataFrameWriter.saveToV1Source(DataFrameWriter.scala:273)
+	at org.apache.spark.sql.classic.DataFrameWriter.saveInternal(DataFrameWriter.scala:241)
+	at org.apache.spark.sql.classic.DataFrameWriter.save(DataFrameWriter.scala:118)
+	at org.apache.spark.sql.DataFrameWriter.parquet(DataFrameWriter.scala:369)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:184)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:108)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+	Suppressed: org.apache.spark.util.Utils$OriginalTryStackTraceException: Full stacktrace of original doTryWithCallerStacktrace caller
+		at scala.concurrent.impl.Promise$.scala$concurrent$impl$Promise$$resolve(Promise.scala:99)
+		at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:278)
+		at scala.concurrent.Promise.complete(Promise.scala:57)
+		at scala.concurrent.Promise.complete$(Promise.scala:56)
+		at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:104)
+		at scala.concurrent.Promise.failure(Promise.scala:109)
+		at scala.concurrent.Promise.failure$(Promise.scala:109)
+		at scala.concurrent.impl.Promise$DefaultPromise.failure(Promise.scala:104)
+		at org.apache.spark.sql.execution.adaptive.ResultQueryStageExec.$anonfun$doMaterialize$2(QueryStageExec.scala:333)
+		at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:863)
+		at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:841)
+		at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+		at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		... 1 more
+Caused by: java.lang.UnsatisfiedLinkError: 'boolean org.apache.hadoop.io.nativeio.NativeIO$Windows.access0(java.lang.String, int)'
+	at org.apache.hadoop.io.nativeio.NativeIO$Windows.access0(Native Method)
+	at org.apache.hadoop.io.nativeio.NativeIO$Windows.access(NativeIO.java:817)
+	at org.apache.hadoop.fs.FileUtil.canRead(FileUtil.java:1415)
+	at org.apache.hadoop.fs.FileUtil.list(FileUtil.java:1620)
+	at org.apache.hadoop.fs.RawLocalFileSystem.listStatus(RawLocalFileSystem.java:739)
+	at org.apache.hadoop.fs.FileSystem.listStatus(FileSystem.java:2078)
+	at org.apache.hadoop.fs.FileSystem.listStatus(FileSystem.java:2122)
+	at org.apache.hadoop.fs.ChecksumFileSystem.listStatus(ChecksumFileSystem.java:961)
+	at org.apache.hadoop.fs.FileSystem.listStatus(FileSystem.java:2078)
+	at org.apache.hadoop.fs.FileSystem.listStatus(FileSystem.java:2122)
+	at org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.getAllCommittedTaskPaths(FileOutputCommitter.java:334)
+	at org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitJobInternal(FileOutputCommitter.java:404)
+	at org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitJob(FileOutputCommitter.java:377)
+	at org.apache.parquet.hadoop.ParquetOutputCommitter.commitJob(ParquetOutputCommitter.java:46)
+	at org.apache.spark.internal.io.HadoopMapReduceCommitProtocol.commitJob(HadoopMapReduceCommitProtocol.scala:194)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.$anonfun$writeAndCommit$3(FileFormatWriter.scala:275)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at org.apache.spark.util.Utils$.timeTakenMs(Utils.scala:481)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.writeAndCommit(FileFormatWriter.scala:275)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.executeWrite(FileFormatWriter.scala:306)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.write(FileFormatWriter.scala:189)
+	at org.apache.spark.sql.execution.datasources.InsertIntoHadoopFsRelationCommand.run(InsertIntoHadoopFsRelationCommand.scala:195)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult$lzycompute(commands.scala:117)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult(commands.scala:115)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.executeCollect(commands.scala:129)
+	at org.apache.spark.sql.execution.adaptive.AdaptiveSparkPlanExec.$anonfun$executeCollect$1(AdaptiveSparkPlanExec.scala:402)
+	at org.apache.spark.sql.execution.adaptive.ResultQueryStageExec.$anonfun$doMaterialize$1(QueryStageExec.scala:325)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withThreadLocalCaptured$4(SQLExecution.scala:318)
+	at org.apache.spark.sql.execution.SQLExecution$.withSessionTagsApplied(SQLExecution.scala:268)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withThreadLocalCaptured$3(SQLExecution.scala:316)
+	at org.apache.spark.JobArtifactSet$.withActiveJobArtifactState(JobArtifactSet.scala:94)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withThreadLocalCaptured$2(SQLExecution.scala:312)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	... 1 more
+
+2025-08-12 17:14:24,663 - __main__ - INFO - Spark session stopped
+2025-08-12 17:14:24,682 - py4j.clientserver - INFO - Closing down clientserver connection
+2025-08-12 17:20:23,162 - __main__ - INFO -  Starting Windows-Compatible Sales Data Pipeline at 2025-08-12 17:20:23.162828
+2025-08-12 17:20:23,162 - __main__ - INFO - Initializing Windows-compatible Spark session...
+2025-08-12 17:20:31,187 - __main__ - INFO -  Windows-compatible Spark session initialized successfully
+2025-08-12 17:20:31,187 - __main__ - INFO - Reading CSV files from Sales_Data
+2025-08-12 17:20:31,187 - __main__ - INFO - Found 12 CSV files
+2025-08-12 17:20:31,187 - __main__ - INFO - Reading file 1/12: Sales_April_2019.csv
+2025-08-12 17:20:35,131 - __main__ - INFO -    Successfully read 18,383 rows from Sales_April_2019.csv
+2025-08-12 17:20:35,131 - __main__ - INFO - Reading file 2/12: Sales_August_2019.csv
+2025-08-12 17:20:35,370 - __main__ - INFO -    Successfully read 12,011 rows from Sales_August_2019.csv
+2025-08-12 17:20:35,370 - __main__ - INFO - Reading file 3/12: Sales_December_2019.csv
+2025-08-12 17:20:35,574 - __main__ - INFO -    Successfully read 25,117 rows from Sales_December_2019.csv
+2025-08-12 17:20:35,577 - __main__ - INFO - Reading file 4/12: Sales_February_2019.csv
+2025-08-12 17:20:35,715 - __main__ - INFO -    Successfully read 12,036 rows from Sales_February_2019.csv
+2025-08-12 17:20:35,715 - __main__ - INFO - Reading file 5/12: Sales_January_2019.csv
+2025-08-12 17:20:35,865 - __main__ - INFO -    Successfully read 9,723 rows from Sales_January_2019.csv
+2025-08-12 17:20:35,865 - __main__ - INFO - Reading file 6/12: Sales_July_2019.csv
+2025-08-12 17:20:36,000 - __main__ - INFO -    Successfully read 14,371 rows from Sales_July_2019.csv
+2025-08-12 17:20:36,000 - __main__ - INFO - Reading file 7/12: Sales_June_2019.csv
+2025-08-12 17:20:36,143 - __main__ - INFO -    Successfully read 13,622 rows from Sales_June_2019.csv
+2025-08-12 17:20:36,144 - __main__ - INFO - Reading file 8/12: Sales_March_2019.csv
+2025-08-12 17:20:36,291 - __main__ - INFO -    Successfully read 15,226 rows from Sales_March_2019.csv
+2025-08-12 17:20:36,291 - __main__ - INFO - Reading file 9/12: Sales_May_2019.csv
+2025-08-12 17:20:36,454 - __main__ - INFO -    Successfully read 16,635 rows from Sales_May_2019.csv
+2025-08-12 17:20:36,457 - __main__ - INFO - Reading file 10/12: Sales_November_2019.csv
+2025-08-12 17:20:36,585 - __main__ - INFO -    Successfully read 17,661 rows from Sales_November_2019.csv
+2025-08-12 17:20:36,588 - __main__ - INFO - Reading file 11/12: Sales_October_2019.csv
+2025-08-12 17:20:36,738 - __main__ - INFO -    Successfully read 20,379 rows from Sales_October_2019.csv
+2025-08-12 17:20:36,738 - __main__ - INFO - Reading file 12/12: Sales_September_2019.csv
+2025-08-12 17:20:36,860 - __main__ - INFO -    Successfully read 11,686 rows from Sales_September_2019.csv
+2025-08-12 17:20:36,860 - __main__ - INFO - Combining all CSV files...
+2025-08-12 17:20:37,415 - __main__ - INFO -  Successfully combined 186,850 rows from 12 files
+2025-08-12 17:20:37,415 - __main__ - INFO - Formatting column names...
+2025-08-12 17:20:37,453 - __main__ - INFO -  Column names formatted: ['order_id', 'product', 'quantity_ordered', 'price_each', 'order_date', 'purchase_address']
+2025-08-12 17:20:37,453 - __main__ - INFO - Starting comprehensive data cleaning...
+2025-08-12 17:20:37,813 - __main__ - INFO - Removing rows with null values in critical columns...
+2025-08-12 17:20:39,571 - __main__ - INFO -  Removed 900 rows with null values
+2025-08-12 17:20:39,571 - __main__ - INFO - Filtering rows with valid integer Order IDs...
+2025-08-12 17:20:40,317 - __main__ - INFO -  Removed 0 rows with invalid Order IDs
+2025-08-12 17:20:40,317 - __main__ - INFO - Removing rows with invalid quantities or prices...
+2025-08-12 17:20:40,367 - __main__ - INFO - Converting Order Date to timestamp format...
+2025-08-12 17:20:41,488 - __main__ - INFO -  Data cleaning complete: 185,950 rows remaining
+2025-08-12 17:20:41,489 - __main__ - INFO - Starting Window function-based deduplication...
+2025-08-12 17:20:42,110 - __main__ - INFO - Applying Window function with row_number()...
+2025-08-12 17:20:46,331 - __main__ - INFO -  Window function deduplication complete:
+2025-08-12 17:20:46,331 - __main__ - INFO -   - Initial rows: 185,950
+2025-08-12 17:20:46,332 - __main__ - INFO -   - Duplicates removed: 311
+2025-08-12 17:20:46,332 - __main__ - INFO -   - Final unique rows: 185,639
+2025-08-12 17:20:46,334 - __main__ - INFO -   - Strategy: Keep most recent record per Order ID + Product
+2025-08-12 17:20:46,334 - __main__ - INFO - Performing enhanced data quality checks...
+2025-08-12 17:21:04,493 - __main__ - INFO -  Data quality check results:
+2025-08-12 17:21:04,493 - __main__ - INFO -   - Total rows: 185,639
+2025-08-12 17:21:04,493 - __main__ - INFO -   - Distinct products: 19
+2025-08-12 17:21:04,493 - __main__ - INFO -   - Distinct orders: 178,437
+2025-08-12 17:21:04,493 - __main__ - INFO -   - Quality status:  PASSED
+2025-08-12 17:21:04,493 - __main__ - INFO - Writing final dataset to a single Parquet file...
+2025-08-12 17:21:08,710 - __main__ - ERROR -  Windows-compatible pipeline failed with error: An error occurred while calling o419.parquet.
+: java.util.concurrent.ExecutionException: Boxed Exception
+	at scala.concurrent.impl.Promise$.scala$concurrent$impl$Promise$$resolve(Promise.scala:99)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:278)
+	at scala.concurrent.Promise.complete(Promise.scala:57)
+	at scala.concurrent.Promise.complete$(Promise.scala:56)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:104)
+	at scala.concurrent.Promise.failure(Promise.scala:109)
+	at scala.concurrent.Promise.failure$(Promise.scala:109)
+	at scala.concurrent.impl.Promise$DefaultPromise.failure(Promise.scala:104)
+	at org.apache.spark.sql.execution.adaptive.ResultQueryStageExec.$anonfun$doMaterialize$2(QueryStageExec.scala:333)
+	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:863)
+	at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:841)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.spark.util.Utils$.getTryWithCallerStacktrace(Utils.scala:1439)
+	at org.apache.spark.util.LazyTry.get(LazyTry.scala:58)
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted(QueryExecution.scala:131)
+	at org.apache.spark.sql.execution.QueryExecution.assertCommandExecuted(QueryExecution.scala:192)
+	at org.apache.spark.sql.classic.DataFrameWriter.runCommand(DataFrameWriter.scala:622)
+	at org.apache.spark.sql.classic.DataFrameWriter.saveToV1Source(DataFrameWriter.scala:273)
+	at org.apache.spark.sql.classic.DataFrameWriter.saveInternal(DataFrameWriter.scala:241)
+	at org.apache.spark.sql.classic.DataFrameWriter.save(DataFrameWriter.scala:118)
+	at org.apache.spark.sql.DataFrameWriter.parquet(DataFrameWriter.scala:369)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:184)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:108)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+	Suppressed: org.apache.spark.util.Utils$OriginalTryStackTraceException: Full stacktrace of original doTryWithCallerStacktrace caller
+		at scala.concurrent.impl.Promise$.scala$concurrent$impl$Promise$$resolve(Promise.scala:99)
+		at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:278)
+		at scala.concurrent.Promise.complete(Promise.scala:57)
+		at scala.concurrent.Promise.complete$(Promise.scala:56)
+		at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:104)
+		at scala.concurrent.Promise.failure(Promise.scala:109)
+		at scala.concurrent.Promise.failure$(Promise.scala:109)
+		at scala.concurrent.impl.Promise$DefaultPromise.failure(Promise.scala:104)
+		at org.apache.spark.sql.execution.adaptive.ResultQueryStageExec.$anonfun$doMaterialize$2(QueryStageExec.scala:333)
+		at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:863)
+		at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:841)
+		at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+		at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		... 1 more
+Caused by: java.lang.UnsatisfiedLinkError: 'boolean org.apache.hadoop.io.nativeio.NativeIO$Windows.access0(java.lang.String, int)'
+	at org.apache.hadoop.io.nativeio.NativeIO$Windows.access0(Native Method)
+	at org.apache.hadoop.io.nativeio.NativeIO$Windows.access(NativeIO.java:817)
+	at org.apache.hadoop.fs.FileUtil.canRead(FileUtil.java:1415)
+	at org.apache.hadoop.fs.FileUtil.list(FileUtil.java:1620)
+	at org.apache.hadoop.fs.RawLocalFileSystem.listStatus(RawLocalFileSystem.java:739)
+	at org.apache.hadoop.fs.FileSystem.listStatus(FileSystem.java:2078)
+	at org.apache.hadoop.fs.FileSystem.listStatus(FileSystem.java:2122)
+	at org.apache.hadoop.fs.ChecksumFileSystem.listStatus(ChecksumFileSystem.java:961)
+	at org.apache.hadoop.fs.FileSystem.listStatus(FileSystem.java:2078)
+	at org.apache.hadoop.fs.FileSystem.listStatus(FileSystem.java:2122)
+	at org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.getAllCommittedTaskPaths(FileOutputCommitter.java:334)
+	at org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitJobInternal(FileOutputCommitter.java:404)
+	at org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitJob(FileOutputCommitter.java:377)
+	at org.apache.parquet.hadoop.ParquetOutputCommitter.commitJob(ParquetOutputCommitter.java:46)
+	at org.apache.spark.internal.io.HadoopMapReduceCommitProtocol.commitJob(HadoopMapReduceCommitProtocol.scala:194)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.$anonfun$writeAndCommit$3(FileFormatWriter.scala:275)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at org.apache.spark.util.Utils$.timeTakenMs(Utils.scala:481)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.writeAndCommit(FileFormatWriter.scala:275)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.executeWrite(FileFormatWriter.scala:306)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.write(FileFormatWriter.scala:189)
+	at org.apache.spark.sql.execution.datasources.InsertIntoHadoopFsRelationCommand.run(InsertIntoHadoopFsRelationCommand.scala:195)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult$lzycompute(commands.scala:117)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult(commands.scala:115)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.executeCollect(commands.scala:129)
+	at org.apache.spark.sql.execution.adaptive.AdaptiveSparkPlanExec.$anonfun$executeCollect$1(AdaptiveSparkPlanExec.scala:402)
+	at org.apache.spark.sql.execution.adaptive.ResultQueryStageExec.$anonfun$doMaterialize$1(QueryStageExec.scala:325)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withThreadLocalCaptured$4(SQLExecution.scala:318)
+	at org.apache.spark.sql.execution.SQLExecution$.withSessionTagsApplied(SQLExecution.scala:268)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withThreadLocalCaptured$3(SQLExecution.scala:316)
+	at org.apache.spark.JobArtifactSet$.withActiveJobArtifactState(JobArtifactSet.scala:94)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withThreadLocalCaptured$2(SQLExecution.scala:312)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	... 1 more
+
+2025-08-12 17:21:08,920 - __main__ - INFO - Spark session stopped
+2025-08-12 17:21:08,941 - py4j.clientserver - INFO - Closing down clientserver connection
+2025-08-12 17:30:17,701 - __main__ - INFO -  Starting Windows-Compatible Sales Data Pipeline at 2025-08-12 17:30:17.701880
+2025-08-12 17:30:17,701 - __main__ - INFO - Initializing Windows-compatible Spark session...
+2025-08-12 17:30:26,144 - __main__ - INFO -  Windows-compatible Spark session initialized successfully
+2025-08-12 17:30:26,144 - __main__ - INFO - Reading CSV files from Sales_Data
+2025-08-12 17:30:26,144 - __main__ - INFO - Found 12 CSV files
+2025-08-12 17:30:26,144 - __main__ - INFO - Reading file 1/12: Sales_April_2019.csv
+2025-08-12 17:30:30,128 - __main__ - INFO -    Successfully read 18,383 rows from Sales_April_2019.csv
+2025-08-12 17:30:30,129 - __main__ - INFO - Reading file 2/12: Sales_August_2019.csv
+2025-08-12 17:30:30,329 - __main__ - INFO -    Successfully read 12,011 rows from Sales_August_2019.csv
+2025-08-12 17:30:30,329 - __main__ - INFO - Reading file 3/12: Sales_December_2019.csv
+2025-08-12 17:30:30,508 - __main__ - INFO -    Successfully read 25,117 rows from Sales_December_2019.csv
+2025-08-12 17:30:30,512 - __main__ - INFO - Reading file 4/12: Sales_February_2019.csv
+2025-08-12 17:30:30,645 - __main__ - INFO -    Successfully read 12,036 rows from Sales_February_2019.csv
+2025-08-12 17:30:30,645 - __main__ - INFO - Reading file 5/12: Sales_January_2019.csv
+2025-08-12 17:30:30,769 - __main__ - INFO -    Successfully read 9,723 rows from Sales_January_2019.csv
+2025-08-12 17:30:30,769 - __main__ - INFO - Reading file 6/12: Sales_July_2019.csv
+2025-08-12 17:30:30,884 - __main__ - INFO -    Successfully read 14,371 rows from Sales_July_2019.csv
+2025-08-12 17:30:30,884 - __main__ - INFO - Reading file 7/12: Sales_June_2019.csv
+2025-08-12 17:30:30,993 - __main__ - INFO -    Successfully read 13,622 rows from Sales_June_2019.csv
+2025-08-12 17:30:30,993 - __main__ - INFO - Reading file 8/12: Sales_March_2019.csv
+2025-08-12 17:30:31,124 - __main__ - INFO -    Successfully read 15,226 rows from Sales_March_2019.csv
+2025-08-12 17:30:31,124 - __main__ - INFO - Reading file 9/12: Sales_May_2019.csv
+2025-08-12 17:30:31,248 - __main__ - INFO -    Successfully read 16,635 rows from Sales_May_2019.csv
+2025-08-12 17:30:31,248 - __main__ - INFO - Reading file 10/12: Sales_November_2019.csv
+2025-08-12 17:30:31,389 - __main__ - INFO -    Successfully read 17,661 rows from Sales_November_2019.csv
+2025-08-12 17:30:31,389 - __main__ - INFO - Reading file 11/12: Sales_October_2019.csv
+2025-08-12 17:30:31,527 - __main__ - INFO -    Successfully read 20,379 rows from Sales_October_2019.csv
+2025-08-12 17:30:31,527 - __main__ - INFO - Reading file 12/12: Sales_September_2019.csv
+2025-08-12 17:30:31,669 - __main__ - INFO -    Successfully read 11,686 rows from Sales_September_2019.csv
+2025-08-12 17:30:31,669 - __main__ - INFO - Combining all CSV files...
+2025-08-12 17:30:32,226 - __main__ - INFO -  Successfully combined 186,850 rows from 12 files
+2025-08-12 17:30:32,226 - __main__ - INFO - Formatting column names...
+2025-08-12 17:30:32,267 - __main__ - INFO -  Column names formatted: ['order_id', 'product', 'quantity_ordered', 'price_each', 'order_date', 'purchase_address']
+2025-08-12 17:30:32,267 - __main__ - INFO - Starting comprehensive data cleaning...
+2025-08-12 17:30:32,587 - __main__ - INFO - Removing rows with null values in critical columns...
+2025-08-12 17:30:34,335 - __main__ - INFO -  Removed 900 rows with null values
+2025-08-12 17:30:34,335 - __main__ - INFO - Filtering rows with valid integer Order IDs...
+2025-08-12 17:30:35,088 - __main__ - INFO -  Removed 0 rows with invalid Order IDs
+2025-08-12 17:30:35,088 - __main__ - INFO - Removing rows with invalid quantities or prices...
+2025-08-12 17:30:35,117 - __main__ - INFO - Converting Order Date to timestamp format...
+2025-08-12 17:30:36,217 - __main__ - INFO -  Data cleaning complete: 185,950 rows remaining
+2025-08-12 17:30:36,217 - __main__ - INFO - Starting Window function-based deduplication...
+2025-08-12 17:30:36,807 - __main__ - INFO - Applying Window function with row_number()...
+2025-08-12 17:30:40,934 - __main__ - INFO -  Window function deduplication complete:
+2025-08-12 17:30:40,935 - __main__ - INFO -   - Initial rows: 185,950
+2025-08-12 17:30:40,936 - __main__ - INFO -   - Duplicates removed: 311
+2025-08-12 17:30:40,936 - __main__ - INFO -   - Final unique rows: 185,639
+2025-08-12 17:30:40,937 - __main__ - INFO -   - Strategy: Keep most recent record per Order ID + Product
+2025-08-12 17:30:40,937 - __main__ - INFO - Performing enhanced data quality checks...
+2025-08-12 17:30:58,174 - __main__ - INFO -  Data quality check results:
+2025-08-12 17:30:58,174 - __main__ - INFO -   - Total rows: 185,639
+2025-08-12 17:30:58,174 - __main__ - INFO -   - Distinct products: 19
+2025-08-12 17:30:58,174 - __main__ - INFO -   - Distinct orders: 178,437
+2025-08-12 17:30:58,174 - __main__ - INFO -   - Quality status:  PASSED
+2025-08-12 17:30:58,174 - __main__ - INFO - Writing final dataset to a single Parquet file...
+2025-08-12 17:31:02,359 - __main__ - ERROR -  Windows-compatible pipeline failed with error: An error occurred while calling o419.parquet.
+: java.util.concurrent.ExecutionException: Boxed Exception
+	at scala.concurrent.impl.Promise$.scala$concurrent$impl$Promise$$resolve(Promise.scala:99)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:278)
+	at scala.concurrent.Promise.complete(Promise.scala:57)
+	at scala.concurrent.Promise.complete$(Promise.scala:56)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:104)
+	at scala.concurrent.Promise.failure(Promise.scala:109)
+	at scala.concurrent.Promise.failure$(Promise.scala:109)
+	at scala.concurrent.impl.Promise$DefaultPromise.failure(Promise.scala:104)
+	at org.apache.spark.sql.execution.adaptive.ResultQueryStageExec.$anonfun$doMaterialize$2(QueryStageExec.scala:333)
+	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:863)
+	at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:841)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.spark.util.Utils$.getTryWithCallerStacktrace(Utils.scala:1439)
+	at org.apache.spark.util.LazyTry.get(LazyTry.scala:58)
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted(QueryExecution.scala:131)
+	at org.apache.spark.sql.execution.QueryExecution.assertCommandExecuted(QueryExecution.scala:192)
+	at org.apache.spark.sql.classic.DataFrameWriter.runCommand(DataFrameWriter.scala:622)
+	at org.apache.spark.sql.classic.DataFrameWriter.saveToV1Source(DataFrameWriter.scala:273)
+	at org.apache.spark.sql.classic.DataFrameWriter.saveInternal(DataFrameWriter.scala:241)
+	at org.apache.spark.sql.classic.DataFrameWriter.save(DataFrameWriter.scala:118)
+	at org.apache.spark.sql.DataFrameWriter.parquet(DataFrameWriter.scala:369)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:184)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:108)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+	Suppressed: org.apache.spark.util.Utils$OriginalTryStackTraceException: Full stacktrace of original doTryWithCallerStacktrace caller
+		at scala.concurrent.impl.Promise$.scala$concurrent$impl$Promise$$resolve(Promise.scala:99)
+		at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:278)
+		at scala.concurrent.Promise.complete(Promise.scala:57)
+		at scala.concurrent.Promise.complete$(Promise.scala:56)
+		at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:104)
+		at scala.concurrent.Promise.failure(Promise.scala:109)
+		at scala.concurrent.Promise.failure$(Promise.scala:109)
+		at scala.concurrent.impl.Promise$DefaultPromise.failure(Promise.scala:104)
+		at org.apache.spark.sql.execution.adaptive.ResultQueryStageExec.$anonfun$doMaterialize$2(QueryStageExec.scala:333)
+		at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:863)
+		at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:841)
+		at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+		at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		... 1 more
+Caused by: java.lang.UnsatisfiedLinkError: 'boolean org.apache.hadoop.io.nativeio.NativeIO$Windows.access0(java.lang.String, int)'
+	at org.apache.hadoop.io.nativeio.NativeIO$Windows.access0(Native Method)
+	at org.apache.hadoop.io.nativeio.NativeIO$Windows.access(NativeIO.java:817)
+	at org.apache.hadoop.fs.FileUtil.canRead(FileUtil.java:1415)
+	at org.apache.hadoop.fs.FileUtil.list(FileUtil.java:1620)
+	at org.apache.hadoop.fs.RawLocalFileSystem.listStatus(RawLocalFileSystem.java:739)
+	at org.apache.hadoop.fs.FileSystem.listStatus(FileSystem.java:2078)
+	at org.apache.hadoop.fs.FileSystem.listStatus(FileSystem.java:2122)
+	at org.apache.hadoop.fs.ChecksumFileSystem.listStatus(ChecksumFileSystem.java:961)
+	at org.apache.hadoop.fs.FileSystem.listStatus(FileSystem.java:2078)
+	at org.apache.hadoop.fs.FileSystem.listStatus(FileSystem.java:2122)
+	at org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.getAllCommittedTaskPaths(FileOutputCommitter.java:334)
+	at org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitJobInternal(FileOutputCommitter.java:404)
+	at org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitJob(FileOutputCommitter.java:377)
+	at org.apache.parquet.hadoop.ParquetOutputCommitter.commitJob(ParquetOutputCommitter.java:46)
+	at org.apache.spark.internal.io.HadoopMapReduceCommitProtocol.commitJob(HadoopMapReduceCommitProtocol.scala:194)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.$anonfun$writeAndCommit$3(FileFormatWriter.scala:275)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at org.apache.spark.util.Utils$.timeTakenMs(Utils.scala:481)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.writeAndCommit(FileFormatWriter.scala:275)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.executeWrite(FileFormatWriter.scala:306)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.write(FileFormatWriter.scala:189)
+	at org.apache.spark.sql.execution.datasources.InsertIntoHadoopFsRelationCommand.run(InsertIntoHadoopFsRelationCommand.scala:195)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult$lzycompute(commands.scala:117)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult(commands.scala:115)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.executeCollect(commands.scala:129)
+	at org.apache.spark.sql.execution.adaptive.AdaptiveSparkPlanExec.$anonfun$executeCollect$1(AdaptiveSparkPlanExec.scala:402)
+	at org.apache.spark.sql.execution.adaptive.ResultQueryStageExec.$anonfun$doMaterialize$1(QueryStageExec.scala:325)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withThreadLocalCaptured$4(SQLExecution.scala:318)
+	at org.apache.spark.sql.execution.SQLExecution$.withSessionTagsApplied(SQLExecution.scala:268)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withThreadLocalCaptured$3(SQLExecution.scala:316)
+	at org.apache.spark.JobArtifactSet$.withActiveJobArtifactState(JobArtifactSet.scala:94)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withThreadLocalCaptured$2(SQLExecution.scala:312)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	... 1 more
+
+2025-08-12 17:31:02,566 - __main__ - INFO - Spark session stopped
+2025-08-12 17:31:02,589 - py4j.clientserver - INFO - Closing down clientserver connection
+2025-08-12 17:34:36,893 - __main__ - INFO -  Starting Windows-Compatible Sales Data Pipeline at 2025-08-12 17:34:36.893600
+2025-08-12 17:34:36,899 - __main__ - INFO - Initializing Windows-compatible Spark session...
+2025-08-12 17:34:51,038 - __main__ - INFO -  Windows-compatible Spark session initialized successfully
+2025-08-12 17:34:51,044 - __main__ - INFO - Reading CSV files from Sales_Data
+2025-08-12 17:34:51,044 - __main__ - INFO - Found 12 CSV files
+2025-08-12 17:34:51,044 - __main__ - INFO - Reading file 1/12: Sales_April_2019.csv
+2025-08-12 17:34:55,166 - __main__ - INFO -    Successfully read 18,383 rows from Sales_April_2019.csv
+2025-08-12 17:34:55,166 - __main__ - INFO - Reading file 2/12: Sales_August_2019.csv
+2025-08-12 17:34:55,410 - __main__ - INFO -    Successfully read 12,011 rows from Sales_August_2019.csv
+2025-08-12 17:34:55,410 - __main__ - INFO - Reading file 3/12: Sales_December_2019.csv
+2025-08-12 17:34:55,620 - __main__ - INFO -    Successfully read 25,117 rows from Sales_December_2019.csv
+2025-08-12 17:34:55,620 - __main__ - INFO - Reading file 4/12: Sales_February_2019.csv
+2025-08-12 17:34:55,805 - __main__ - INFO -    Successfully read 12,036 rows from Sales_February_2019.csv
+2025-08-12 17:34:55,805 - __main__ - INFO - Reading file 5/12: Sales_January_2019.csv
+2025-08-12 17:34:56,042 - __main__ - INFO -    Successfully read 9,723 rows from Sales_January_2019.csv
+2025-08-12 17:34:56,044 - __main__ - INFO - Reading file 6/12: Sales_July_2019.csv
+2025-08-12 17:34:56,250 - __main__ - INFO -    Successfully read 14,371 rows from Sales_July_2019.csv
+2025-08-12 17:34:56,250 - __main__ - INFO - Reading file 7/12: Sales_June_2019.csv
+2025-08-12 17:34:56,429 - __main__ - INFO -    Successfully read 13,622 rows from Sales_June_2019.csv
+2025-08-12 17:34:56,429 - __main__ - INFO - Reading file 8/12: Sales_March_2019.csv
+2025-08-12 17:34:56,598 - __main__ - INFO -    Successfully read 15,226 rows from Sales_March_2019.csv
+2025-08-12 17:34:56,598 - __main__ - INFO - Reading file 9/12: Sales_May_2019.csv
+2025-08-12 17:34:56,763 - __main__ - INFO -    Successfully read 16,635 rows from Sales_May_2019.csv
+2025-08-12 17:34:56,763 - __main__ - INFO - Reading file 10/12: Sales_November_2019.csv
+2025-08-12 17:34:56,914 - __main__ - INFO -    Successfully read 17,661 rows from Sales_November_2019.csv
+2025-08-12 17:34:56,914 - __main__ - INFO - Reading file 11/12: Sales_October_2019.csv
+2025-08-12 17:34:57,086 - __main__ - INFO -    Successfully read 20,379 rows from Sales_October_2019.csv
+2025-08-12 17:34:57,086 - __main__ - INFO - Reading file 12/12: Sales_September_2019.csv
+2025-08-12 17:34:57,242 - __main__ - INFO -    Successfully read 11,686 rows from Sales_September_2019.csv
+2025-08-12 17:34:57,242 - __main__ - INFO - Combining all CSV files...
+2025-08-12 17:34:57,787 - __main__ - INFO -  Successfully combined 186,850 rows from 12 files
+2025-08-12 17:34:57,789 - __main__ - INFO - Formatting column names...
+2025-08-12 17:34:57,840 - __main__ - INFO -  Column names formatted: ['order_id', 'product', 'quantity_ordered', 'price_each', 'order_date', 'purchase_address']
+2025-08-12 17:34:57,840 - __main__ - INFO - Starting comprehensive data cleaning...
+2025-08-12 17:34:58,267 - __main__ - INFO - Removing rows with null values in critical columns...
+2025-08-12 17:35:00,387 - __main__ - INFO -  Removed 900 rows with null values
+2025-08-12 17:35:00,387 - __main__ - INFO - Filtering rows with valid integer Order IDs...
+2025-08-12 17:35:01,394 - __main__ - INFO -  Removed 0 rows with invalid Order IDs
+2025-08-12 17:35:01,394 - __main__ - INFO - Removing rows with invalid quantities or prices...
+2025-08-12 17:35:01,450 - __main__ - INFO - Converting Order Date to timestamp format...
+2025-08-12 17:35:02,888 - __main__ - INFO -  Data cleaning complete: 185,950 rows remaining
+2025-08-12 17:35:02,889 - __main__ - INFO - Starting Window function-based deduplication...
+2025-08-12 17:35:03,648 - __main__ - INFO - Applying Window function with row_number()...
+2025-08-12 17:35:08,260 - __main__ - INFO -  Window function deduplication complete:
+2025-08-12 17:35:08,260 - __main__ - INFO -   - Initial rows: 185,950
+2025-08-12 17:35:08,260 - __main__ - INFO -   - Duplicates removed: 311
+2025-08-12 17:35:08,261 - __main__ - INFO -   - Final unique rows: 185,639
+2025-08-12 17:35:08,261 - __main__ - INFO -   - Strategy: Keep most recent record per Order ID + Product
+2025-08-12 17:35:08,261 - __main__ - INFO - Performing enhanced data quality checks...
+2025-08-12 17:35:29,617 - __main__ - INFO -  Data quality check results:
+2025-08-12 17:35:29,617 - __main__ - INFO -   - Total rows: 185,639
+2025-08-12 17:35:29,617 - __main__ - INFO -   - Distinct products: 19
+2025-08-12 17:35:29,617 - __main__ - INFO -   - Distinct orders: 178,437
+2025-08-12 17:35:29,617 - __main__ - INFO -   - Quality status:  PASSED
+2025-08-12 17:35:29,619 - __main__ - INFO - Writing final dataset to a single Parquet file...
+2025-08-12 17:35:36,376 - __main__ - INFO - Generating enhanced processing summary...
+2025-08-12 17:35:36,380 - __main__ - ERROR -  Windows-compatible pipeline failed with error: 'charmap' codec can't encode character '\u2705' in position 669: character maps to <undefined>
+2025-08-12 17:35:37,004 - __main__ - INFO - Spark session stopped
+2025-08-12 17:35:37,047 - py4j.clientserver - INFO - Closing down clientserver connection
